@@ -1,0 +1,227 @@
+/*base background color*/
+@define-color bg_main rgba(29, 51, 55, 0.6);
+@define-color bg_main_tooltip rgba(0, 0, 0, 0.7);
+
+/*Active highlight colors*/
+@define-color bg_active rgba(122, 164, 161, 0.7);
+@define-color bg_active_highlight rgba(122, 164, 161, 1);
+
+/*Inactive highlight colors*/
+@define-color bg_inactive rgba(78, 81, 87, 0.5);
+@define-color bg_inactive_highlight rgba(200, 200, 200, 0.5);
+
+/*base border color*/
+@define-color border_main rgba(248, 248, 242, 0.2);
+
+/*text color for entries, views and content in general */
+@define-color content_main white;
+/*text color for entries that are unselected */
+@define-color content_inactive rgba(255, 255, 255, 0.25);
+
+* {
+  text-shadow: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  font-family: "Roboto", "Ubuntu";
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+window#waybar {
+  background:  @bg_main;
+  color: @content_main;
+  border-radius: 10px;
+  margin-bottom: -50px;
+}
+
+tooltip {
+  background: @bg_main_tooltip;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: @border_main;
+}
+tooltip label{
+  color: @content_main;
+}
+
+#custom-os_button {
+  font-size: 24px;
+  padding-left: 12px;
+  padding-right: 20px;
+  border-radius: 10px;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#custom-os_button:hover {
+  background: @bg_active;
+  color: @content_main;
+}
+
+#custom-system_info{
+  padding-right: 1rem; 
+}
+
+#workspaces {
+  color: transparent;
+  margin: 0.5rem;
+}
+#workspaces button {
+  padding: 3px;
+  color: @content_inactive;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#workspaces button.active {
+  color: @content_main;
+}
+#workspaces button.focused {
+  color: @bg_active;
+}
+#workspaces button.urgent {
+  background:  rgba(255, 200, 0, 0.35);
+  border-bottom: 3px dashed @warning_color;
+  color: @warning_color;
+}
+#workspaces button:hover {
+  background: @bg_hover;
+  color: @content_main;
+}
+
+#hardware {
+  color: #ebebeb;
+}
+
+#taskbar {
+}
+
+#taskbar button {
+  /*min-width: 130px;*/
+  background: @bg_inactive;
+  /*border-bottom: 3px solid rgba(255, 255, 255, 0.3);*/
+  /*margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 8px;
+  padding-right: 8px;*/
+  color: white;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 4px;
+  padding: 6px 8px;
+  margin: 6px
+}
+
+#taskbar button.active {
+  /*border-bottom: 3px solid rgba(189, 147, 249, 1);*/
+  background: @bg_active;
+}
+
+#taskbar button.active:hover {
+  background: @bg_active_highlight;
+}
+
+#taskbar button:hover {
+  background: @bg_inactive_highlight;
+  color: @content_main;
+}
+
+#custom-system_info {
+  font-size: 18px;
+}
+
+#custom-system_info:hover {
+}
+
+#cpu, #disk, #memory, #temperature {
+  font-size: 18px;
+  padding-right: 0.5rem;
+}
+
+#disk {
+  padding-left: 0.5rem;
+}
+
+#temperature {
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#temperature.critical {
+  padding-right: 3px;
+  color: @warning_color;
+  font-size: initial;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#window {
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#tray{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#tray > .passive {
+  border-bottom: none;
+}
+#tray > .active {
+  /*border-bottom: 3px solid white;*/
+}
+#tray > .needs-attention {
+  border-bottom: 3px solid @warning_color;
+}
+#tray > widget {
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/*modules-right*/
+#bluetooth, #pulseaudio, #network, #battery, #clock, #tray {
+  font-size: 1rem;
+  padding-right: 1rem;
+}
+
+#battery.warning {
+  color: #fda47f;
+}
+
+#battery.critical{
+  color: #fda47f;
+}
+
+#pulseaudio:hover {
+
+}
+
+#language {
+  padding-left: 5px;
+}
+
+#clock:hover {
+  background: @bg_active;
+  border-radius: 10px;
+}
+
+#custom-system_monitor {
+  font-size: 18px;
+  border-radius: 2rem;
+  margin-right: 10px;
+}
+
+menu {
+  border-radius: 10px;
+  background: #1d3337;
+  color: #B5E8E0;
+}
+
+menuitem {
+  border-radius: 10px;
+  color: #ebebeb;
+}
+
+menuitem:hover {
+  background: @bg_active;
+}
+
+menu separator {
+  background-color: #2d4f56; /* A muted purple that fits with your theme */
+  margin: 5px 8px;
+  min-height: 2px;
+}
