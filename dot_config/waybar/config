@@ -72,7 +72,7 @@
     },
     "memory": {
         "interval": 10,
-        "format": " 󱤓   {percentage}%",
+        "format": "󱤓   {percentage}%",
         "max-length": 10,
         "tooltip": true,
         "tooltip-format": "RAM - {used:0.1f}GiB used"
@@ -97,7 +97,7 @@
         "spacing": 5
     },
     "clock": {
-        "format": "{:%I:%M\n%m/%d/%Y}",
+        "format": "{:%I:%M %p\n%m/%d/%Y}",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
             "mode": "year",
@@ -147,13 +147,13 @@
     "battery": {
         "states": {
             "good": 95,
-            "warning": 30,
-            "critical": 20
+            "warning": 25,
+            "critical": 15
         },
         "format": "{icon}",
         "format-charging": "󰂄",
         "format-plugged": "󰂄",
-        "format-alt": "{time} {icon}",
+        "format-alt": "{icon} {capacity}%",
         "tooltip-format": "{capacity}%",
         "format-icons": [
             "󰂎",
@@ -192,7 +192,7 @@
     },
     "custom/nvidia": {
       "exec": "nvidia-smi --query-gpu=utilization.gpu,temperature.gpu --format=csv,nounits,noheader | sed 's/\\([0-9]\\+\\), \\([0-9]\\+\\)/\\1%  \\2°C/g'",
-      "format": " 󰍹   {}  ",
+      "format": "󰍹   {}",
       "interval": 2
     },
     "custom/power": {

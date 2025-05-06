@@ -130,9 +130,9 @@ tooltip label{
 #custom-system_info:hover {
 }
 
-#cpu, #disk, #memory, #temperature {
-  font-size: 18px;
-  padding-right: 0.5rem;
+#cpu, #disk, #memory, #temperature, #custom-nvidia {
+  font-size: 1.25rem;
+  padding-right: 1rem;
 }
 
 #disk {
@@ -172,9 +172,14 @@ tooltip label{
 	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-/*modules-right*/
-#bluetooth, #pulseaudio, #network, #battery, #clock, #tray {
+#clock {
   font-size: 1rem;
+  padding: 1rem;
+}
+
+/*modules-right*/
+#bluetooth, #pulseaudio, #network, #battery, #tray {
+  font-size: 1.25rem;
   padding-right: 1rem;
 }
 
@@ -184,10 +189,6 @@ tooltip label{
 
 #battery.critical{
   color: #fda47f;
-}
-
-#pulseaudio:hover {
-
 }
 
 #language {
