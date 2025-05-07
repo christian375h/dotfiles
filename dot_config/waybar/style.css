@@ -3,12 +3,12 @@
 @define-color bg_main_tooltip rgba(0, 0, 0, 0.7);
 
 /*Active highlight colors*/
-@define-color bg_active rgba(122, 164, 161, 0.7);
-@define-color bg_active_highlight rgba(122, 164, 161, 1);
+@define-color bg_active rgba(37, 65, 71, 0.6);
+@define-color bg_active_highlight rgba(45, 79, 86, 0.6);
 
 /*Inactive highlight colors*/
-@define-color bg_inactive rgba(78, 81, 87, 0.5);
-@define-color bg_inactive_highlight rgba(200, 200, 200, 0.5);
+@define-color bg_inactive rgba(78, 81, 87, 0.6);
+@define-color bg_inactive_highlight rgba(200, 200, 200, 0.6);
 
 /*base border color*/
 @define-color border_main rgba(248, 248, 242, 0.2);
@@ -20,10 +20,9 @@
 
 * {
   text-shadow: none;
-  box-shadow: none;
   border: none;
   border-radius: 0;
-  font-family: "Roboto", "Ubuntu";
+  font-family: "Adwaita Mono", "Ubuntu";
   font-weight: 600;
   font-size: 1rem;
 }
@@ -33,14 +32,15 @@ window#waybar {
   color: @content_main;
   border-radius: 10px;
   margin-bottom: -50px;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
 }
 
 tooltip {
-  background: @bg_main_tooltip;
-  border-radius: 5px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: @border_main;
+  background: @bg_main;
+  border-radius: 10px;
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  /* border-color: @border_main; */
 }
 tooltip label{
   color: @content_main;
@@ -95,32 +95,25 @@ tooltip label{
 }
 
 #taskbar button {
-  /*min-width: 130px;*/
-  background: @bg_inactive;
-  /*border-bottom: 3px solid rgba(255, 255, 255, 0.3);*/
-  /*margin-left: 2px;
-  margin-right: 2px;
-  padding-left: 8px;
-  padding-right: 8px;*/
-  color: white;
   transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
   border-radius: 4px;
   padding: 6px 8px;
-  margin: 6px
+  margin: 6px;
 }
 
 #taskbar button.active {
-  /*border-bottom: 3px solid rgba(189, 147, 249, 1);*/
   background: @bg_active;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
+}
+
+#taskbar button:hover {
+  background: @bg_active;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
 }
 
 #taskbar button.active:hover {
   background: @bg_active_highlight;
-}
-
-#taskbar button:hover {
-  background: @bg_inactive_highlight;
-  color: @content_main;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
 }
 
 #custom-system_info {
@@ -169,18 +162,21 @@ tooltip label{
   border-bottom: 3px solid @warning_color;
 }
 #tray > widget {
-	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #clock {
   font-size: 1rem;
-  padding: 1rem;
+  padding: 0.25rem;
+  margin: 6px;
 }
 
 /*modules-right*/
 #bluetooth, #pulseaudio, #network, #battery, #tray {
   font-size: 1.25rem;
-  padding-right: 1rem;
+  margin: 10px 0;
+  padding: 0.5rem;
+  border-radius: 4px;
 }
 
 #battery.warning {
@@ -197,7 +193,7 @@ tooltip label{
 
 #clock:hover {
   background: @bg_active;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 #custom-system_monitor {
