@@ -168,7 +168,7 @@ tooltip label{
 #clock {
   font-size: 1rem;
   padding: 0.25rem;
-  margin: 6px;
+  margin: 6px 6px 6px 15px;
 }
 
 /*modules-right*/
