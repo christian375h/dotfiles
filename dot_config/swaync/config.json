@@ -2,7 +2,7 @@
   "$schema": "/etc/xdg/swaync/configSchema.json",
   "positionX": "right",
   "positionY": "top",
-	"cssPriority": "user",
+  "cssPriority": "user",
 
   "control-center-width": 380,
   "control-center-height": 860, 
@@ -43,9 +43,9 @@
   "widgets": [
     "label",
     "buttons-grid",
-    "mpris",
     "volume",
     "backlight",
+    "mpris",
     "title",
     "dnd",
     "notifications"
@@ -54,26 +54,26 @@
     "title": {
       "text": "Notifications",
       "clear-all-button": true,
-      "button-text": " 󰎟 "
+      "button-text": "Clear all"
     },
     "dnd": {
       "text": "Do not disturb"
     },
     "label": {
       "max-lines": 1,
-      "text": " "
+      "text": ""
     },
     "mpris": {
-      "image-size": 96,
-      "image-radius": 4
+      "image-size": 100,
+      "image-radius": 10
     },
     "volume": {
       "enabled": true,
-      "label": "󰕾",
-        "show-per-app": true
+      "label": "󰕾  ",
+      "show-per-app": false 
     },
    "backlight": {
-      "label": " ",
+      "label": "󰃠  ",
       "device": "nvidia_wmi_ec_backlight"
     },
     "buttons-grid": {
@@ -88,14 +88,14 @@
         },
         {
           "label": " ",
-          "command": "iwmenu -l fuzzel &"
+          "command": "iwmenu -l fuzzel && swaync-client -cp"
         },
         {
           "label": "󰂯",
           "command": "bzmenu -l fuzzel &"
         },
         {
-          "label": "󰏘",
+          "label": "󰏘 ",
           "command": "nwg-look"
         }
         

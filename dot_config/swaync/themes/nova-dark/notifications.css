@@ -28,8 +28,8 @@
 }
 
 .floating-notifications.background .notification-row .notification-background {
-  background: @background;
-  border: 1px solid @selected;
+  background: @background-sec;
+  border: 1px solid @border;
   border-radius: 10px;
   margin: 6px;
 }
@@ -53,14 +53,14 @@
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action {
   border-radius: 8px;
-  background-color: @background-alt ;
+  background-color: @background;
   margin: 6px;
   border: 1px solid transparent;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
   background-color: @hover;
-  border: 1px solid @selected;
+  border: 1px solid @border;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action:active {
@@ -84,7 +84,7 @@
 .floating-notifications.background .notification-row .notification-background .close-button {
   margin: 6px;
   padding: 2px;
-  border-radius: 6px;
+  border-radius: 2rem;
   background-color: transparent;
   border: 1px solid transparent;
 }
@@ -106,4 +106,3 @@
 .notification.normal progress {
   background-color: @selected;
 }
-

@@ -1,12 +1,7 @@
-@define-color text            @foreground;
-@define-color background-alt  alpha(@color1, 1);
-@define-color selected        @color6;
-@define-color hover           alpha(@selected, .4);
-@define-color urgent          @color2;
+@define-color selected rgba(147, 78, 105, 1.0);
 
 * {
-  color:            @text;
-
+  color: @text;
   all: unset;
   font-size: 14px;
   font-family: "Roboto";
@@ -24,21 +19,23 @@
 .control-center {
   background: @background;
   border-radius: 10px;
-  border: 1px solid @selected;
-  margin: 6px;
+  border: 1px solid @border;
+  margin-bottom: 6px;
+  padding: 12px;
 }
 
 /* Notifications  */
 .control-center .notification-row .notification-background,
 .control-center .notification-row .notification-background .notification.critical {
-  background-color: @background-alt;
+  background-color: @background-sec;
   border-radius: 10px;
   margin: 3px 0px;
   padding: 6px;
+  border: 1px solid @border;
 }
 
 .control-center .notification-row .notification-background .notification.critical {
-  color: @urgent;
+  color: rgb(255, 0, 0);
 }
 
 .control-center .notification-row .notification-background .notification .notification-content {
@@ -53,7 +50,7 @@
 .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action {
   background: alpha(@selected, .6);
   color: @text;
-  border-radius: 12px;
+  border-radius: 4px;
   margin: 6px;
 }
 
@@ -121,7 +118,7 @@ progressbar {
 
 .notification-group-collapse-button:hover,
 .notification-group-close-all-button:hover {
-  background: @hover;
+  background: @selected;
 }  
 
 /* WIDGETS --------------------------------------------------------------------------- */
@@ -133,13 +130,15 @@ progressbar {
 }
 
 .widget-title button {
-  background: @background-alt;
-  border-radius: 6px;
-  padding: 4px 16px;
+  background: @background-sec;
+  border-radius: 2rem;
+  padding: 6px 16px;
+  border: 1px solid @border;
+  min-height: 25px;
 }
 
 .widget-title button:hover {
-  background-color: @hover;
+  background-color: @selected;
 }
 
 .widget-title button:active {
@@ -153,48 +152,51 @@ progressbar {
 }
 
 .widget-dnd > switch {
-  background: @background-alt;
+  background: @background-sec;
   font-size: initial;
-  border-radius: 8px;
+  border-radius: 2rem;
   box-shadow: none;
-  padding: 2px;
+  padding: 6px;
+  border: 1px solid @border;
+  min-height: 25px;
 }
 
-.widget-dnd > switch:hover {
-  background: @hover;
-}
+/* .widget-dnd > switch:hover { */
+/*   background: @hover; */
+/* } */
 
 .widget-dnd > switch:checked {
   background: @selected;
 }
 
-.widget-dnd > switch:checked:hover {
-  background: @hover;
-}
+/* .widget-dnd > switch:checked:hover { */
+/*   background: @hover; */
+/* } */
 
 .widget-dnd > switch slider {
   background: @text;
-  border-radius: 6px;
+  border-radius: 2rem;
 }
 
   /* Buttons menu */
 .widget-buttons-grid {
   font-size: x-large;
-  padding: 6px 2px;
-  margin: 6px;
+  padding: 6px;
+  margin: 10px 10px 5px 10px;
   border-radius: 10px;
-  background: transparent;
+  background: @background;
+  border: 1px solid @border;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button {
-  margin: 4px 10px;
-  padding: 6px 12px;
-  background: @background-alt;
-  border-radius: 2rem;
+  margin: 6px;
+  padding: 6px;
+  background: @background-sec;
+  border-radius: 4px;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-  background: @hover;
+  background: #934E69;
 }
 
 
@@ -209,7 +211,7 @@ progressbar {
   /* NOTE: Background need *opacity 1* otherwise will turn into the album art blurred  */
 .widget-mpris-player {
     border-radius: 4px;
-    box-shadow: 0px 0px 7px rgba(226, 226, 226, 0.5);
+    box-shadow: 0px 0px 7px rgba(226, 226, 226, 0.2);
     padding: 6px;
     margin: 10px;
 }
@@ -220,14 +222,14 @@ progressbar {
 }
  
 .widget-mpris button {
-  color: @background-alt;
-  background: #ebebeb;
-  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
+  color: @text;
+  background: transparent;
+  /* box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93); */
   border-radius: 4px;
 }
 
 .widget-mpris button:hover {
-  color: @text;
+  color: @text-highlight;
 }
 
 .widget-mpris-album-art {
@@ -249,56 +251,64 @@ progressbar {
 
 /* Volume */
 .widget-volume {
-  background: @background-alt;
+  background: transparent;
   color: @text;
-  padding: 10px;
-  margin: 8px;
-  border-radius: 8px;
+  margin: 6px;
+  padding: 6px;
+  border-radius: 2rem;
+  min-height: 27px;
+  /* border: 1px solid @border; */
 }
 
-.widget-volume box {
-  padding: 6px;
-}
+/* .widget-volume box { */
+/*   padding: 12px; */
+/* } */
 
 .widget-volume icon {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: @text;
 }
 
 .widget-volume scale trough {
-  background-color: alpha(@text, 0.1);
   border-radius: 8px;
   min-height: 8px;
+  padding: 12px;
 }
 
 .widget-volume scale slider,
 .widget-volume scale highlight {
-  background: @color6;
-  border-radius: 8px;
+  background: @selected;
+  border-radius: 2rem;
 }
 
 /* Brightness */
-/* Brightness */
-.widget-backlight {
-  background: @background-sec;
-  color: @background;
-  padding: 4px;
+.widget-backlight{
+  background: transparent;
+  color: @text;
   margin: 6px;
-  border-radius: 6px;
+  padding: 6px;
+  border-radius: 2rem;
+  min-height: 27px;
+  /* border: 1px solid @border; */
 }
 
-.widget-backlight slider {
-  background: @text;
-  border-radius: 6px;
+.widget-backlight box {
+  padding: 12px;
 }
 
-.widget-backlight > trough {
-  background-color: rgba(255,255,255,.1);
-  border-radius: 12px;
+.widget-backlight icon {
+  font-size: 2rem;
+  color: @text;
 }
 
-.widget-backlight > progress {
-  background-color: @selected;
-  border-radius: 12px;
+.widget-backlight scale trough {
+  border-radius: 8px;
+  min-height: 8px;
+  padding: 12px;
 }
 
+.widget-backlight scale slider,
+.widget-backlight scale highlight {
+  background: #934E69;
+  border-radius: 2rem;
+}
