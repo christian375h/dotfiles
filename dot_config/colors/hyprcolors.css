@@ -1,0 +1,13 @@
+@define-color background rgba(21, 37, 40, 0.2);
+@define-color background-sec rgba(21, 37, 40, 0.9);
+@define-color border rgba(37, 65, 71, 0.9); 
+@define-color foreground rgba(235, 235, 235, 1.0);
+@define-color selected rgba(147, 78, 105, 1.0);
+@define-color color1 rgba(37, 65, 71, 1.0);
+@define-color color2 #fda47f;
+@define-color color3 rgba(78, 81, 87, 0.6);
+@define-color color4 rgba(200, 200, 200, 0.6);
+@define-color color5 rgba(255, 255, 255, 0.25);
+@define-color color6 rgba(45, 79, 86, 0.6);
+@define-color text rgba(190, 190, 190, 1.0);
+@define-color text-highlight rgba(235, 235, 235, 1.0);
