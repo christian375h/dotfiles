@@ -1,10 +1,10 @@
 /*base background color*/
-@define-color bg_main rgba(21, 37, 40, 0.2);
+@define-color bg_main rgba(40, 40, 40, 0.6);
 @define-color bg_main_tooltip rgba(0, 0, 0, 0.7);
 
 /*Active highlight colors*/
-@define-color bg_active rgba(37, 65, 71, 0.6);
-@define-color bg_active_highlight rgba(45, 79, 86, 0.6);
+@define-color bg_active rgba(146, 131, 116, 0.6);
+@define-color bg_active_highlight rgba(168, 153, 132, 0.6);
 
 /*Inactive highlight colors*/
 @define-color bg_inactive rgba(78, 81, 87, 0.6);
@@ -33,7 +33,7 @@ window#waybar {
   border-radius: 10px;
   margin-bottom: -50px;
   box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
-  border: 1px solid rgba(45, 79, 86, 0.6);
+  /* border: 2px solid rgba(124, 111, 100, 1.0); */
 }
 
 tooltip {
