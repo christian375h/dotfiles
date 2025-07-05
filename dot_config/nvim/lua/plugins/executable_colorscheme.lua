@@ -1,9 +1,26 @@
 return {
-    'EdenEast/nightfox.nvim',
+    'ellisonleao/gruvbox.nvim',
+    priority = 1000,
     config = function()
-        vim.cmd('colorscheme terafox')
+        require("gruvbox").setup({
+            transparent_mode = true,
+            italic = {
+                strings = true,
+                comments = true,
+                operators = false,
+                folds = true,
+            },
+        })
+        vim.cmd.colorscheme("gruvbox")
     end
 }
+
+-- return {
+--     'EdenEast/nightfox.nvim',
+--     config = function()
+--         vim.cmd('colorscheme terafox')
+--     end
+-- }
 
 --[[return {
     {
