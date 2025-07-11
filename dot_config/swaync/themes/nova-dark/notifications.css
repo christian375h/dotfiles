@@ -1,9 +1,3 @@
-@define-color text            @foreground;
-@define-color background-alt  @color1;
-@define-color selected        @color3;
-@define-color hover           @color5;
-@define-color urgent          @color2;
-
 * {
 
   /*background-alt:        @color1;      Buttons background */
@@ -28,7 +22,7 @@
 }
 
 .floating-notifications.background .notification-row .notification-background {
-  background: @background-sec;
+  background: @background;
   border: 1px solid @border;
   border-radius: 10px;
   margin: 6px;

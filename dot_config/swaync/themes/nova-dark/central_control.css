@@ -1,12 +1,8 @@
-@define-color selected rgba(147, 78, 105, 1.0);
-
 * {
-  color: @text;
   all: unset;
   font-size: 14px;
   font-family: "Roboto";
   transition: 200ms;
-
 }
 
 /* Avoid 'annoying' backgroud */
@@ -19,7 +15,7 @@
 .control-center {
   background: @background;
   border-radius: 10px;
-  border: 1px solid @border;
+  border: 0px solid @border;
   margin-bottom: 6px;
   padding: 12px;
 }
@@ -27,11 +23,12 @@
 /* Notifications  */
 .control-center .notification-row .notification-background,
 .control-center .notification-row .notification-background .notification.critical {
-  background-color: @background-sec;
+  background-color: @background;
   border-radius: 10px;
   margin: 3px 0px;
   padding: 6px;
   border: 1px solid @border;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
 }
 
 .control-center .notification-row .notification-background .notification.critical {
@@ -184,19 +181,33 @@ progressbar {
   padding: 6px;
   margin: 10px 10px 5px 10px;
   border-radius: 10px;
-  background: @background;
-  border: 1px solid @border;
+  background: @foreground;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button {
-  margin: 6px;
-  padding: 6px;
-  background: @background-sec;
-  border-radius: 4px;
+  all: unset; /* Keep unset for initial state if you prefer, but define all properties needed below */
+  box-shadow: inset 0 0 0 9999px transparent;
+  background-image: radial-gradient(circle, transparent 10%, transparent 0%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1000% 1000%; /* For ripple animation */
+  background: #282828;
+  margin: 0 10px 0 0;
+  transition: all 75ms cubic-bezier(0, 0, 0.2, 1), background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 100ms cubic-bezier(0, 0, 0.2, 1);
+  outline: none;
+  color: @text; /* Default text color */
+  font-size: 14px; /* Ensure font properties are set */
+  font-family: "Roboto";
+  min-height: 24px; /* Set a default minimum height */
+  min-width: 16px; /* Set a default minimum width */
+  padding: 5px 9px; /* Default padding */
+  border-radius: 4px; /* Default border-radius, adjust for specific buttons if needed */
+  font-weight: 500;
 }
 
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-  background: #934E69;
+  background: @selected;
 }
 
 
@@ -211,7 +222,7 @@ progressbar {
   /* NOTE: Background need *opacity 1* otherwise will turn into the album art blurred  */
 .widget-mpris-player {
     border-radius: 4px;
-    box-shadow: 0px 0px 7px rgba(226, 226, 226, 0.2);
+    box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
     padding: 6px;
     margin: 10px;
 }
@@ -222,8 +233,8 @@ progressbar {
 }
  
 .widget-mpris button {
-  color: @text;
-  background: transparent;
+  color: #ebebeb;
+  background: @foreground;
   /* box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93); */
   border-radius: 4px;
 }
@@ -272,7 +283,8 @@ progressbar {
 .widget-volume scale trough {
   border-radius: 8px;
   min-height: 8px;
-  padding: 12px;
+  margin: 12px;
+  background: @foreground;
 }
 
 .widget-volume scale slider,
@@ -304,11 +316,12 @@ progressbar {
 .widget-backlight scale trough {
   border-radius: 8px;
   min-height: 8px;
-  padding: 12px;
+  margin: 12px;
+  background: @foreground;
 }
 
 .widget-backlight scale slider,
 .widget-backlight scale highlight {
-  background: #934E69;
+  background: @selected;
   border-radius: 2rem;
 }
