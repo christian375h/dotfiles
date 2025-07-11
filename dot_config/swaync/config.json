@@ -83,20 +83,12 @@
           "command": "amixer set Master toggle"
         },
         {
-          "label": "",
-          "command": "amixer set Capture toggle"
-        },
-        {
           "label": " ",
           "command": "iwmenu -l fuzzel && swaync-client -cp"
         },
         {
-          "label": "󰂯",
+          "label": " 󰂯 ",
           "command": "bzmenu -l fuzzel &"
-        },
-        {
-          "label": "󰏘 ",
-          "command": "nwg-look"
         }
         
       ]
