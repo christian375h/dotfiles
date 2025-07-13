@@ -44,7 +44,6 @@
     "label",
     "buttons-grid",
     "volume",
-    "backlight",
     "mpris",
     "title",
     "dnd",
@@ -72,10 +71,6 @@
       "label": "󰕾  ",
       "show-per-app": false 
     },
-   "backlight": {
-      "label": "󰃠  ",
-      "device": "nvidia_wmi_ec_backlight"
-    },
     "buttons-grid": {
       "actions": [
         {
@@ -89,8 +84,11 @@
         {
           "label": " 󰂯 ",
           "command": "bzmenu -l fuzzel &"
+        },
+        {
+          "label": "󱡫",
+          "command": "~/scripts/audio_switcher.sh"
         }
-        
       ]
     }
   }
