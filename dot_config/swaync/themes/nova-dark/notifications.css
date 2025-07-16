@@ -1,11 +1,4 @@
 * {
-
-  /*background-alt:        @color1;      Buttons background */
-  /*selected:              @color2;      Button selected */
-  /*hover:                 @color5;      Hover button */
-  /*urgent:                @color6;      Urgency critical */
-  /*text-selected:         @background; */
-
   color: @text;
 
   all: unset;
@@ -22,7 +15,7 @@
 }
 
 .floating-notifications.background .notification-row .notification-background {
-  background: @background;
+  background: @bg_t;
   border: 1px solid @border;
   border-radius: 10px;
   margin: 6px;
