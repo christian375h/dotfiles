@@ -1,0 +1,59 @@
+/* background */
+@define-color bg #282828;
+@define-color bg_t alpha(#282828, 0.7);
+@define-color bg_full_t alpha(#282828, 0.4);
+@define-color border rgba(130, 124, 118, 1.0);
+
+@define-color bg0_h #1d2021;
+@define-color bg0_s #32302f;
+@define-color bg0 #282828;
+@define-color bg1 #3c3836;
+@define-color bg2 #504945;
+@define-color bg3 #665c54;
+@define-color bg4 #7c6f64;
+
+/* foreground */
+@define-color fg #ebdbb2;
+
+@define-color fg0 #fbf1c7;
+@define-color fg1 #ebdbb2;
+@define-color fg2 #d5c4a1;
+@define-color fg3 #bdae93;
+@define-color fg4 #a89984;
+
+/* base colors */
+@define-color gray_base #a89984;
+@define-color red_base #cc241d;
+@define-color green_base #98971a;
+@define-color yellow_base #d79921;
+@define-color blue_base #458588;
+@define-color purple_base #b16286;
+@define-color aqua_base #689d6a;
+@define-color orange_base #d65d0e;
+
+/* bright colors */
+@define-color gray_bright #928374;
+@define-color red_bright #fb4934;
+@define-color green_bright #b8bb26;
+@define-color yellow_bright #fabd2f;
+@define-color blue_bright #83a598;
+@define-color purple_bright #d3869b;
+@define-color aqua_bright #8ec07c;
+@define-color orange_bright #fe8019;
+
+@define-color text #ebebeb;
+
+
+
+@define-color background_transparent alpha(@background, 0.8);
+@define-color foreground_transparent alpha(@foreground, 0.8);
+
+@define-color background_active rgba(146, 131, 116, 0.6);
+@define-color background_active_highlight rgba(168, 153, 132, 0.6);
+
+@define-color selection_foreground #1d2021;
+@define-color selection_background #ebdbb2;
+
+@define-color background-sec rgba(29, 32, 33, 0.9);
+@define-color selected rgba(235, 219, 178, 1.0);
+@define-color text-highlight rgba(29, 32, 33, 1.0);

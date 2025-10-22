@@ -1,0 +1,89 @@
+# ========================================
+# Global ignores
+# ========================================
+
+# Ignore temporary and backup files
+*.bak
+*.tmp
+*~
+*.swp
+*.log
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Ignore specific noisy config folders
+# ========================================
+
+.config/Discord
+.config/Code
+.config/Code \- \OSS
+.config/Electron
+.config/GIMP
+.config/Genymobile
+.config/OpenRGB
+.config/Proton
+.config/QtProject
+.config/Signal
+.config/Unknown \Organization
+.config/VirtualBox
+.config/WebCord
+.config/audacity
+.config/blender
+.config/chezmoi
+.config/dconf
+.config/discord
+.config/enlisted
+.config/flutter
+.config/gh
+.config/glib-*
+.config/go
+.config/godot
+.config/google-chrome-for-testing
+.config/google-chrome
+.config/gtk-*
+.config/htop
+.config/how-full-ui
+.config/kdeconnect
+.config/libfm
+.config/libreoffice
+.config/menus
+.config/nextjs-nodejs
+.config/ngrok
+.config/nwg-displays
+.config/obsidian
+.config/obs-studio
+.config/pulse
+.config/pupgui
+.config/qBittorrent
+.config/qtvirtualkeyboard
+.config/r2modmanPlus-local
+.config/r2modman
+.config/simple-update-notifier
+.config/sst
+.config/systemd
+.config/unity3d
+.config/vesktop
+.config/vlc
+.config/wireplumber
+.config/xfce4
+.config/yay
+
+.config/QtProject.conf
+.config/mimeapps.list
+.config/pavucontrol.ini
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.config/zoom.conf
+.config/zoomus.conf
+
+# ========================================
+# Optional: ignore app caches and sessions
+# ========================================
+
+.cache/
+.local/share/Trash
+.local/share/Steam
+.local/share/flatpak

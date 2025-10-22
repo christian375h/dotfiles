@@ -1,0 +1,228 @@
+@import '/home/chin/system_colors.css';
+
+/*base background color*/
+@define-color bg_main rgba(40, 40, 40, 0.6);
+@define-color bg_main_tooltip rgba(0, 0, 0, 0.7);
+
+/*Active highlight colors*/
+@define-color bg_active rgba(146, 131, 116, 0.6);
+@define-color bg_active_highlight rgba(168, 153, 132, 0.6);
+
+/*Inactive highlight colors*/
+@define-color bg_inactive rgba(78, 81, 87, 0.6);
+@define-color bg_inactive_highlight rgba(200, 200, 200, 0.6);
+
+/*base border color*/
+@define-color border_main rgba(248, 248, 242, 0.2);
+
+/*text color for entries, views and content in general */
+@define-color content_main white;
+/*text color for entries that are unselected */
+@define-color content_inactive rgba(255, 255, 255, 0.25);
+
+* {
+  text-shadow: none;
+  border: none;
+  border-radius: 0;
+  font-family: "Cal Sans";
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+window#waybar {
+  background: @bg_full_t;
+  color: @text;
+  border-radius: 2px;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
+  border: 1px solid @border;
+}
+
+tooltip {
+  background: @bg_main;
+  border-radius: 10px;
+  /* border-width: 1px; */
+  /* border-style: solid; */
+  /* border-color: @border_main; */
+  margin: 0;
+}
+tooltip label{
+  color: @content_main;
+}
+
+#custom-os_button {
+  font-size: 24px;
+  padding-left: 12px;
+  padding-right: 20px;
+  border-radius: 10px;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#custom-os_button:hover {
+  background: @bg_active;
+  color: @content_main;
+}
+
+#custom-system_info{
+  padding-right: 1rem; 
+}
+
+#workspaces {
+  color: transparent;
+  margin: 0.5rem;
+}
+#workspaces button {
+  padding: 3px;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background: none;
+}
+#workspaces button.active {
+  color: @content_main;
+}
+#workspaces button.focused {
+  color: @bg_active;
+}
+#workspaces button.urgent {
+  border-bottom: 3px dashed @warning_color;
+  color: @warning_color;
+}
+#workspaces button:hover {
+  color: @content_main;
+}
+
+#hardware {
+  color: #ebebeb;
+}
+
+#taskbar {
+}
+
+#taskbar button {
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 2px;
+  padding: 6px 8px;
+  margin: 6px;
+  background: none;
+}
+
+#taskbar button.active {
+  background: @bg2;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
+}
+
+#taskbar button:hover {
+  background: @gray_bright;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
+}
+
+#taskbar button.active:hover {
+  background: @fg4;
+  box-shadow: 0px 0px 7px rgba(26, 26, 26, 0.93);
+}
+
+#custom-system_info {
+  font-size: 18px;
+}
+
+#custom-system_info:hover {
+}
+
+#cpu, #disk, #memory, #temperature, #custom-nvidia {
+  font-size: 1.25rem;
+  padding-right: 1rem;
+}
+
+#disk {
+  padding-left: 0.5rem;
+}
+
+#temperature {
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#temperature.critical {
+  padding-right: 3px;
+  color: @warning_color;
+  font-size: initial;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#window {
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+tray{
+}
+#tray > .passive {
+  border-bottom: none;
+}
+#tray > .active {
+  /*border-bottom: 3px solid white;*/
+}
+#tray > .needs-attention {
+  border-bottom: 3px solid @warning_color;
+}
+#tray > widget {
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#clock {
+  font-size: 1rem;
+  padding: 0.25rem;
+  margin: 6px 6px 6px 15px;
+}
+
+/*modules-right*/
+#bluetooth, #pulseaudio, #network, #battery, #tray {
+  color: #ebebeb;
+  font-size: 1.25rem;
+  padding: 0.75rem;
+  transition: all 0.25s;
+}
+
+#bluetooth:hover, #pulseaudio:hover, #network:hover, #battery:hover, #tray:hover {
+  color: white;
+}
+
+#battery.warning {
+  color: #fda47f;
+}
+
+#battery.critical{
+  color: #E85C51;
+}
+
+#language {
+  padding-left: 5px;
+}
+
+#clock:hover {
+  background: @bg_active;
+  border-radius: 4px;
+}
+
+#custom-system_monitor {
+  font-size: 18px;
+  border-radius: 2rem;
+  margin-right: 10px;
+}
+
+menu {
+  border-radius: 10px;
+  background: #1d3337;
+  color: #B5E8E0;
+}
+
+menuitem {
+  border-radius: 10px;
+  color: #ebebeb;
+}
+
+menuitem:hover {
+  background: @bg_active;
+}
+
+menu separator {
+  background-color: #2d4f56; /* A muted purple that fits with your theme */
+  margin: 5px 8px;
+  min-height: 2px;
+}

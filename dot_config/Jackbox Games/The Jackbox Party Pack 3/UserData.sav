@@ -1,0 +1,7 @@
+{
+	"AwShirt_CONTENT_METADATA" : "{\n\t\"Main\" : \n\t{\n\t\t\"AwShirtDrawingSuggestions\" : \n\t\t{\n\t\t\t\"percentCompleted\" : 0.0051948051948051948\n\t\t},\n\t\t\"AwShirtDrawings\" : \n\t\t{\n\t\t\t\"percentCompleted\" : 0.0055401662049861496\n\t\t},\n\t\t\"AwShirtSloganSuggestions\" : \n\t\t{\n\t\t\t\"percentCompleted\" : 0.0\n\t\t},\n\t\t\"AwShirtSlogans\" : \n\t\t{\n\t\t\t\"percentCompleted\" : 0.0\n\t\t}\n\t}\n}",
+	"AwShirt_DISABLED_SOURCES" : "[]",
+	"AwShirt_PlayerStats" : "{}",
+	"AwShirt_SAVED_TALK_SHOW_VARIABLE_numGamesPlayedEver" : "{\n\t\"value\" : 1\n}",
+	"AwShirt_TIME_LAST_SEEN_ID" : "{\n\t\"AwShirtDrawingSuggestions\" : \n\t{\n\t\t\"40386\" : 1739683913357.0,\n\t\t\"41569\" : 1739683976536.0\n\t},\n\t\"AwShirtDrawings\" : \n\t{\n\t\t\"241\" : 1739684052829.0,\n\t\t\"49\" : 1739684052838.0\n\t},\n\t\"AwShirtSloganSuggestions\" : {},\n\t\"AwShirtSlogans\" : {}\n}"
+}

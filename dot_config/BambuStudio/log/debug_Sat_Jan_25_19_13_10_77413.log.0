@@ -1,0 +1,1155 @@
+2025-01-25 19:13:10.033894[Thread 0x000079d158164240]:Instance check: Another instance not found or single-instance not set.
+2025-01-25 19:13:10.060248[Thread 0x000079d158164240]:gui mode, Current BambuStudio Version 01.10.01.50
+2025-01-25 19:13:10.064060[Thread 0x000079d158164240]:load_language: language , initial: 1
+2025-01-25 19:13:10.064081[Thread 0x000079d158164240]:language provided by BambuStudio.conf: en_US
+2025-01-25 19:13:10.064136[Thread 0x000079d158164240]:Switching wxLocales to en_US
+2025-01-25 19:13:10.073039[Thread 0x000079d158164240]:Update_dark_mode_flag: switch the current dark mode status to 0 
+2025-01-25 19:13:10.076394[Thread 0x000079d158164240]:begin to show the splash screen...
+2025-01-25 19:13:10.091890[Thread 0x000079d158164240]:loading systen presets...
+2025-01-25 19:13:10.093174[Thread 0x000079d158164240]:[BBL Updater]:Checking whether the profile from resource is newer
+2025-01-25 19:13:10.111836[Thread 0x000079d158164240]:initialize_network_module, successfully loaded library /home/chin/.config/BambuStudio/plugins/libbambu_networking.so, module 0x44cbabd0
+2025-01-25 19:13:10.111881[Thread 0x000079d158164240]:get_network_function, can not find function bambu_network_del_subscribe
+2025-01-25 19:13:10.111897[Thread 0x000079d158164240]:get_network_function, can not find function bambu_network_get_model_id_from_desgin_id
+2025-01-25 19:13:10.111919[Thread 0x000079d158164240]:get_network_function, can not find function bambu_network_get_profile_3mf
+2025-01-25 19:13:10.111945[Thread 0x000079d158164240]:on_init_network: on_init_network, load dll ok
+2025-01-25 19:13:10.111950[Thread 0x000079d158164240]:get_network_agent_version=01.10.01.01
+2025-01-25 19:13:10.111957[Thread 0x000079d158164240]:on_init_network: on_init_network, compatibility version
+2025-01-25 19:13:10.118673[Thread 0x000079d158164240]:on_init_network, create network agent...
+2025-01-25 19:13:10.120283[Thread 0x000079d158164240]:NetworkAgent, this 0x44b89960, network_agent=0x44ce07c0, create_agent_ptr=1, log_dir=/home/chin/.config/BambuStudio
+2025-01-25 19:13:10.126386[Thread 0x000079d158164240]:init_networking_callbacks: enter, m_agent=0x44b89960
+2025-01-25 19:13:10.126767[Thread 0x000079d158164240]:init_networking_callbacks: exit, m_agent=0x44b89960
+2025-01-25 19:13:10.128358[Thread 0x000079d158164240]:load_presets enter, substitution_rule 3, preferred printer_model_id 
+2025-01-25 19:13:10.128404[Thread 0x000079d158164240]:load_vendor_configs_from_json enter, path /home/chin/.config/BambuStudio/system, compatibility_rule 2
+2025-01-25 19:13:10.129233[Thread 0x000079d158164240]:load_vendor_configs_from_json: parse /home/chin/.config/BambuStudio/system/BBL.json, got description:  "the initial version of BBL configurations"
+2025-01-25 19:13:10.136629[Thread 0x000079d158164240]:operator() 3489, 0.08mm Extra Fine @BBL X1C load filament_id: 
+2025-01-25 19:13:10.136890[Thread 0x000079d158164240]:operator() 3489, 0.08mm Extra Fine @BBL P1P load filament_id: 
+2025-01-25 19:13:10.137161[Thread 0x000079d158164240]:operator() 3489, 0.08mm Extra Fine @BBL A1M load filament_id: 
+2025-01-25 19:13:10.137451[Thread 0x000079d158164240]:operator() 3489, 0.08mm Extra Fine @BBL A1 load filament_id: 
+2025-01-25 19:13:10.137745[Thread 0x000079d158164240]:operator() 3489, 0.08mm High Quality @BBL X1C load filament_id: 
+2025-01-25 19:13:10.137981[Thread 0x000079d158164240]:operator() 3489, 0.08mm High Quality @BBL P1P load filament_id: 
+2025-01-25 19:13:10.138223[Thread 0x000079d158164240]:operator() 3489, 0.08mm High Quality @BBL A1M load filament_id: 
+2025-01-25 19:13:10.138465[Thread 0x000079d158164240]:operator() 3489, 0.08mm High Quality @BBL A1 load filament_id: 
+2025-01-25 19:13:10.138693[Thread 0x000079d158164240]:operator() 3489, 0.10mm Standard @BBL X1C 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.138922[Thread 0x000079d158164240]:operator() 3489, 0.10mm Standard @BBL P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.139160[Thread 0x000079d158164240]:operator() 3489, 0.10mm Standard @BBL A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.139412[Thread 0x000079d158164240]:operator() 3489, 0.10mm High Quality @BBL X1C 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.139641[Thread 0x000079d158164240]:operator() 3489, 0.10mm High Quality @BBL P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.139876[Thread 0x000079d158164240]:operator() 3489, 0.10mm High Quality @BBL A1M 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.140235[Thread 0x000079d158164240]:operator() 3489, 0.10mm High Quality @BBL A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.140479[Thread 0x000079d158164240]:operator() 3489, 0.40mm Standard @BBL X1C 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.140697[Thread 0x000079d158164240]:operator() 3489, 0.40mm Standard @BBL X1 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.140908[Thread 0x000079d158164240]:operator() 3489, 0.40mm Standard @BBL P1P 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.141136[Thread 0x000079d158164240]:operator() 3489, 0.40mm Standard @BBL A1 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.141369[Thread 0x000079d158164240]:operator() 3489, 0.30mm Standard @BBL X1C 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.141593[Thread 0x000079d158164240]:operator() 3489, 0.30mm Standard @BBL X1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.141813[Thread 0x000079d158164240]:operator() 3489, 0.30mm Standard @BBL P1P 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.142035[Thread 0x000079d158164240]:operator() 3489, 0.30mm Strength @BBL X1C 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.142385[Thread 0x000079d158164240]:operator() 3489, 0.30mm Strength @BBL A1M 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.142621[Thread 0x000079d158164240]:operator() 3489, 0.30mm Strength @BBL P1P 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.142853[Thread 0x000079d158164240]:operator() 3489, 0.30mm Standard @BBL A1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.143122[Thread 0x000079d158164240]:operator() 3489, 0.30mm Strength @BBL A1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.143424[Thread 0x000079d158164240]:operator() 3489, 0.12mm Fine @BBL X1C load filament_id: 
+2025-01-25 19:13:10.143974[Thread 0x000079d158164240]:operator() 3489, 0.12mm Fine @BBL P1P load filament_id: 
+2025-01-25 19:13:10.144473[Thread 0x000079d158164240]:operator() 3489, 0.12mm Fine @BBL A1M load filament_id: 
+2025-01-25 19:13:10.144871[Thread 0x000079d158164240]:operator() 3489, 0.12mm Fine @BBL A1 load filament_id: 
+2025-01-25 19:13:10.145214[Thread 0x000079d158164240]:operator() 3489, 0.12mm High Quality @BBL X1C load filament_id: 
+2025-01-25 19:13:10.145541[Thread 0x000079d158164240]:operator() 3489, 0.12mm High Quality @BBL P1P load filament_id: 
+2025-01-25 19:13:10.145839[Thread 0x000079d158164240]:operator() 3489, 0.12mm High Quality @BBL A1M load filament_id: 
+2025-01-25 19:13:10.146103[Thread 0x000079d158164240]:operator() 3489, 0.12mm High Quality @BBL A1 load filament_id: 
+2025-01-25 19:13:10.146331[Thread 0x000079d158164240]:operator() 3489, 0.16mm Optimal @BBL X1C load filament_id: 
+2025-01-25 19:13:10.146551[Thread 0x000079d158164240]:operator() 3489, 0.16mm Optimal @BBL P1P load filament_id: 
+2025-01-25 19:13:10.146881[Thread 0x000079d158164240]:operator() 3489, 0.16mm Optimal @BBL A1M load filament_id: 
+2025-01-25 19:13:10.147361[Thread 0x000079d158164240]:operator() 3489, 0.16mm Optimal @BBL A1 load filament_id: 
+2025-01-25 19:13:10.147861[Thread 0x000079d158164240]:operator() 3489, 0.16mm High Quality @BBL X1C load filament_id: 
+2025-01-25 19:13:10.148335[Thread 0x000079d158164240]:operator() 3489, 0.16mm High Quality @BBL P1P load filament_id: 
+2025-01-25 19:13:10.148639[Thread 0x000079d158164240]:operator() 3489, 0.16mm High Quality @BBL A1M load filament_id: 
+2025-01-25 19:13:10.148927[Thread 0x000079d158164240]:operator() 3489, 0.16mm High Quality @BBL A1 load filament_id: 
+2025-01-25 19:13:10.149199[Thread 0x000079d158164240]:operator() 3489, 0.20mm Standard @BBL X1C load filament_id: 
+2025-01-25 19:13:10.149476[Thread 0x000079d158164240]:operator() 3489, 0.20mm Strength @BBL X1C load filament_id: 
+2025-01-25 19:13:10.149711[Thread 0x000079d158164240]:operator() 3489, 0.20mm Standard @BBL P1P load filament_id: 
+2025-01-25 19:13:10.149961[Thread 0x000079d158164240]:operator() 3489, 0.20mm Strength @BBL P1P load filament_id: 
+2025-01-25 19:13:10.150241[Thread 0x000079d158164240]:operator() 3489, 0.20mm Standard @BBL A1 load filament_id: 
+2025-01-25 19:13:10.150479[Thread 0x000079d158164240]:operator() 3489, 0.20mm Strength @BBL A1 load filament_id: 
+2025-01-25 19:13:10.150699[Thread 0x000079d158164240]:operator() 3489, 0.24mm Draft @BBL X1C load filament_id: 
+2025-01-25 19:13:10.151083[Thread 0x000079d158164240]:operator() 3489, 0.24mm Draft @BBL P1P load filament_id: 
+2025-01-25 19:13:10.151618[Thread 0x000079d158164240]:operator() 3489, 0.24mm Draft @BBL A1M load filament_id: 
+2025-01-25 19:13:10.152113[Thread 0x000079d158164240]:operator() 3489, 0.24mm Draft @BBL A1 load filament_id: 
+2025-01-25 19:13:10.152570[Thread 0x000079d158164240]:operator() 3489, 0.28mm Extra Draft @BBL X1C load filament_id: 
+2025-01-25 19:13:10.152958[Thread 0x000079d158164240]:operator() 3489, 0.28mm Extra Draft @BBL P1P load filament_id: 
+2025-01-25 19:13:10.153281[Thread 0x000079d158164240]:operator() 3489, 0.28mm Extra Draft @BBL A1M load filament_id: 
+2025-01-25 19:13:10.153591[Thread 0x000079d158164240]:operator() 3489, 0.28mm Extra Draft @BBL A1 load filament_id: 
+2025-01-25 19:13:10.153869[Thread 0x000079d158164240]:operator() 3489, 0.06mm Standard @BBL X1C 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.154148[Thread 0x000079d158164240]:operator() 3489, 0.06mm Fine @BBL A1M 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.154405[Thread 0x000079d158164240]:operator() 3489, 0.06mm Fine @BBL P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.154637[Thread 0x000079d158164240]:operator() 3489, 0.06mm Fine @BBL A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.154910[Thread 0x000079d158164240]:operator() 3489, 0.06mm High Quality @BBL X1C 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.155185[Thread 0x000079d158164240]:operator() 3489, 0.06mm High Quality @BBL P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.155463[Thread 0x000079d158164240]:operator() 3489, 0.06mm High Quality @BBL A1M 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.155739[Thread 0x000079d158164240]:operator() 3489, 0.06mm High Quality @BBL A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.155984[Thread 0x000079d158164240]:operator() 3489, 0.08mm Standard @BBL X1C 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.156225[Thread 0x000079d158164240]:operator() 3489, 0.08mm Optimal @BBL A1M 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.156456[Thread 0x000079d158164240]:operator() 3489, 0.08mm Optimal @BBL P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.156700[Thread 0x000079d158164240]:operator() 3489, 0.08mm Optimal @BBL A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.156966[Thread 0x000079d158164240]:operator() 3489, 0.08mm High Quality @BBL A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.157188[Thread 0x000079d158164240]:operator() 3489, 0.08mm High Quality @BBL A1M 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.157425[Thread 0x000079d158164240]:operator() 3489, 0.08mm High Quality @BBL P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.157659[Thread 0x000079d158164240]:operator() 3489, 0.08mm High Quality @BBL X1C 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.157906[Thread 0x000079d158164240]:operator() 3489, 0.12mm Standard @BBL X1C 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.158132[Thread 0x000079d158164240]:operator() 3489, 0.12mm Draft @BBL A1M 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.158368[Thread 0x000079d158164240]:operator() 3489, 0.12mm Draft @BBL P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.158616[Thread 0x000079d158164240]:operator() 3489, 0.12mm Draft @BBL A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.158848[Thread 0x000079d158164240]:operator() 3489, 0.14mm Standard @BBL X1C 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.159069[Thread 0x000079d158164240]:operator() 3489, 0.14mm Extra Draft @BBL A1M 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.159297[Thread 0x000079d158164240]:operator() 3489, 0.14mm Extra Draft @BBL P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.159537[Thread 0x000079d158164240]:operator() 3489, 0.14mm Extra Draft @BBL A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.159868[Thread 0x000079d158164240]:operator() 3489, 0.18mm Standard @BBL X1C 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.160157[Thread 0x000079d158164240]:operator() 3489, 0.18mm Fine @BBL A1M 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.160422[Thread 0x000079d158164240]:operator() 3489, 0.18mm Fine @BBL P1P 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.160692[Thread 0x000079d158164240]:operator() 3489, 0.18mm Fine @BBL A1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.160964[Thread 0x000079d158164240]:operator() 3489, 0.24mm Standard @BBL X1C 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.161238[Thread 0x000079d158164240]:operator() 3489, 0.24mm Optimal @BBL A1M 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.161521[Thread 0x000079d158164240]:operator() 3489, 0.24mm Optimal @BBL P1P 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.161792[Thread 0x000079d158164240]:operator() 3489, 0.24mm Optimal @BBL A1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.162244[Thread 0x000079d158164240]:operator() 3489, 0.36mm Standard @BBL X1C 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.162516[Thread 0x000079d158164240]:operator() 3489, 0.36mm Draft @BBL A1M 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.162750[Thread 0x000079d158164240]:operator() 3489, 0.36mm Draft @BBL P1P 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.162983[Thread 0x000079d158164240]:operator() 3489, 0.36mm Draft @BBL A1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.163230[Thread 0x000079d158164240]:operator() 3489, 0.42mm Standard @BBL X1C 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.163487[Thread 0x000079d158164240]:operator() 3489, 0.42mm Extra Draft @BBL A1M 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.163714[Thread 0x000079d158164240]:operator() 3489, 0.42mm Extra Draft @BBL P1P 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.163962[Thread 0x000079d158164240]:operator() 3489, 0.42mm Extra Draft @BBL A1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.164264[Thread 0x000079d158164240]:operator() 3489, 0.24mm Standard @BBL X1C 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.164496[Thread 0x000079d158164240]:operator() 3489, 0.24mm Fine @BBL A1M 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.164721[Thread 0x000079d158164240]:operator() 3489, 0.24mm Fine @BBL P1P 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.164950[Thread 0x000079d158164240]:operator() 3489, 0.24mm Fine @BBL A1 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.165223[Thread 0x000079d158164240]:operator() 3489, 0.32mm Standard @BBL X1C 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.165451[Thread 0x000079d158164240]:operator() 3489, 0.32mm Optimal @BBL A1M 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.165684[Thread 0x000079d158164240]:operator() 3489, 0.32mm Optimal @BBL P1P 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.165909[Thread 0x000079d158164240]:operator() 3489, 0.32mm Optimal @BBL A1 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.166161[Thread 0x000079d158164240]:operator() 3489, 0.48mm Standard @BBL X1C 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.166380[Thread 0x000079d158164240]:operator() 3489, 0.48mm Draft @BBL A1M 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.166603[Thread 0x000079d158164240]:operator() 3489, 0.48mm Draft @BBL P1P 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.166831[Thread 0x000079d158164240]:operator() 3489, 0.48mm Draft @BBL A1 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.167073[Thread 0x000079d158164240]:operator() 3489, 0.56mm Standard @BBL X1C 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.167295[Thread 0x000079d158164240]:operator() 3489, 0.56mm Extra Draft @BBL A1M 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.167510[Thread 0x000079d158164240]:operator() 3489, 0.56mm Extra Draft @BBL P1P 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.167749[Thread 0x000079d158164240]:operator() 3489, 0.56mm Extra Draft @BBL A1 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.168127[Thread 0x000079d158164240]:operator() 3489, 0.10mm Standard @BBL A1M 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.168690[Thread 0x000079d158164240]:operator() 3489, 0.40mm Standard @BBL A1M 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.168948[Thread 0x000079d158164240]:operator() 3489, 0.30mm Standard @BBL A1M 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.169220[Thread 0x000079d158164240]:operator() 3489, 0.20mm Standard @BBL A1M load filament_id: 
+2025-01-25 19:13:10.169595[Thread 0x000079d158164240]:operator() 3489, 0.20mm Strength @BBL A1M load filament_id: 
+2025-01-25 19:13:10.182997[Thread 0x000079d158164240]:operator() 3489, Generic TPU load filament_id: GFU99
+2025-01-25 19:13:10.183271[Thread 0x000079d158164240]:operator() 3489, Generic TPU @BBL P1P load filament_id: GFU99
+2025-01-25 19:13:10.188913[Thread 0x000079d158164240]:operator() 3489, Generic PA load filament_id: GFN99
+2025-01-25 19:13:10.189121[Thread 0x000079d158164240]:operator() 3489, Generic PA-CF load filament_id: GFN98
+2025-01-25 19:13:10.189463[Thread 0x000079d158164240]:operator() 3489, Generic PA-CF @BBL P1P load filament_id: GFN98
+2025-01-25 19:13:10.189653[Thread 0x000079d158164240]:operator() 3489, Generic PA @BBL P1P load filament_id: GFN99
+2025-01-25 19:13:10.193107[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL X1C load filament_id: GFA01
+2025-01-25 19:13:10.193334[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL X1C 0.2 nozzle load filament_id: GFA01
+2025-01-25 19:13:10.193566[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL X1C 0.8 nozzle load filament_id: GFA01
+2025-01-25 19:13:10.193804[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL X1 load filament_id: GFA01
+2025-01-25 19:13:10.194009[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL P1P 0.2 nozzle load filament_id: GFA01
+2025-01-25 19:13:10.194208[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL P1P load filament_id: GFA01
+2025-01-25 19:13:10.194414[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL A1M load filament_id: GFA01
+2025-01-25 19:13:10.194602[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL A1M 0.2 nozzle load filament_id: GFA01
+2025-01-25 19:13:10.194808[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL A1 load filament_id: GFA01
+2025-01-25 19:13:10.195021[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Matte @BBL A1 0.2 nozzle load filament_id: GFA01
+2025-01-25 19:13:10.195224[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL X1C load filament_id: GFA00
+2025-01-25 19:13:10.195420[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL X1C 0.2 nozzle load filament_id: GFA00
+2025-01-25 19:13:10.195622[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL X1C 0.8 nozzle load filament_id: GFA00
+2025-01-25 19:13:10.195822[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL X1 load filament_id: GFA00
+2025-01-25 19:13:10.196021[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL P1P 0.2 nozzle load filament_id: GFA00
+2025-01-25 19:13:10.196195[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL P1P load filament_id: GFA00
+2025-01-25 19:13:10.196391[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL A1M load filament_id: GFA00
+2025-01-25 19:13:10.196578[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL A1M 0.2 nozzle load filament_id: GFA00
+2025-01-25 19:13:10.196782[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL A1 load filament_id: GFA00
+2025-01-25 19:13:10.196974[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Basic @BBL A1 0.2 nozzle load filament_id: GFA00
+2025-01-25 19:13:10.197160[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL X1C load filament_id: GFA09
+2025-01-25 19:13:10.197349[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL X1C 0.2 nozzle load filament_id: GFA09
+2025-01-25 19:13:10.197517[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL X1 load filament_id: GFA09
+2025-01-25 19:13:10.197710[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL P1P 0.2 nozzle load filament_id: GFA09
+2025-01-25 19:13:10.197892[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL P1P load filament_id: GFA09
+2025-01-25 19:13:10.198075[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL A1M load filament_id: GFA09
+2025-01-25 19:13:10.198256[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL A1M 0.2 nozzle load filament_id: GFA09
+2025-01-25 19:13:10.198449[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL A1 load filament_id: GFA09
+2025-01-25 19:13:10.198633[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Tough @BBL A1 0.2 nozzle load filament_id: GFA09
+2025-01-25 19:13:10.198803[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Marble @BBL X1 load filament_id: GFA07
+2025-01-25 19:13:10.199007[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Marble @BBL X1C load filament_id: GFA07
+2025-01-25 19:13:10.199206[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Marble @BBL P1P load filament_id: GFA07
+2025-01-25 19:13:10.199406[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Marble @BBL A1M load filament_id: GFA07
+2025-01-25 19:13:10.199603[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Marble @BBL A1 load filament_id: GFA07
+2025-01-25 19:13:10.199780[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Sparkle @BBL X1 load filament_id: GFA08
+2025-01-25 19:13:10.199950[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Sparkle @BBL X1C load filament_id: GFA08
+2025-01-25 19:13:10.200149[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Sparkle @BBL P1P load filament_id: GFA08
+2025-01-25 19:13:10.200328[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Sparkle @BBL A1M load filament_id: GFA08
+2025-01-25 19:13:10.200507[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Sparkle @BBL A1 load filament_id: GFA08
+2025-01-25 19:13:10.200723[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL X1C 0.2 nozzle load filament_id: GFA02
+2025-01-25 19:13:10.200890[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL X1 load filament_id: GFA02
+2025-01-25 19:13:10.201061[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL X1C load filament_id: GFA02
+2025-01-25 19:13:10.201247[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL P1P 0.2 nozzle load filament_id: GFA02
+2025-01-25 19:13:10.201439[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL P1P load filament_id: GFA02
+2025-01-25 19:13:10.201619[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL A1M load filament_id: GFA02
+2025-01-25 19:13:10.201823[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL A1M 0.2 nozzle load filament_id: GFA02
+2025-01-25 19:13:10.202004[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL A1 load filament_id: GFA02
+2025-01-25 19:13:10.202184[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Metal @BBL A1 0.2 nozzle load filament_id: GFA02
+2025-01-25 19:13:10.202350[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL X1 load filament_id: GFA05
+2025-01-25 19:13:10.202539[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL X1C 0.2 nozzle load filament_id: GFA05
+2025-01-25 19:13:10.202728[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL X1C load filament_id: GFA05
+2025-01-25 19:13:10.202924[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL P1P load filament_id: GFA05
+2025-01-25 19:13:10.203113[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL P1P 0.2 nozzle load filament_id: GFA05
+2025-01-25 19:13:10.203306[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL A1M load filament_id: GFA05
+2025-01-25 19:13:10.203526[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL A1M 0.2 nozzle load filament_id: GFA05
+2025-01-25 19:13:10.203730[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL A1 load filament_id: GFA05
+2025-01-25 19:13:10.203953[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk @BBL A1 0.2 nozzle load filament_id: GFA05
+2025-01-25 19:13:10.204158[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL X1C load filament_id: GFS00
+2025-01-25 19:13:10.204359[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL X1C 0.2 nozzle load filament_id: GFS00
+2025-01-25 19:13:10.204522[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL X1 load filament_id: GFS00
+2025-01-25 19:13:10.204707[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL P1P 0.2 nozzle load filament_id: GFS00
+2025-01-25 19:13:10.204882[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL P1P load filament_id: GFS00
+2025-01-25 19:13:10.205071[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL A1M load filament_id: GFS00
+2025-01-25 19:13:10.205257[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL A1M 0.2 nozzle load filament_id: GFS00
+2025-01-25 19:13:10.205434[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL A1 load filament_id: GFS00
+2025-01-25 19:13:10.205619[Thread 0x000079d158164240]:operator() 3489, Bambu Support W @BBL A1 0.2 nozzle load filament_id: GFS00
+2025-01-25 19:13:10.205804[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL X1C load filament_id: GFL03
+2025-01-25 19:13:10.205987[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL X1 load filament_id: GFL03
+2025-01-25 19:13:10.206174[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL X1C 0.2 nozzle load filament_id: GFL03
+2025-01-25 19:13:10.206373[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL P1P load filament_id: GFL03
+2025-01-25 19:13:10.206569[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL P1P 0.2 nozzle load filament_id: GFL03
+2025-01-25 19:13:10.206777[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL A1M load filament_id: GFL03
+2025-01-25 19:13:10.206994[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL A1M 0.2 nozzle load filament_id: GFL03
+2025-01-25 19:13:10.207190[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL A1 load filament_id: GFL03
+2025-01-25 19:13:10.207409[Thread 0x000079d158164240]:operator() 3489, eSUN PLA+ @BBL A1 0.2 nozzle load filament_id: GFL03
+2025-01-25 19:13:10.207616[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL X1C load filament_id: GFL01
+2025-01-25 19:13:10.207816[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL X1 load filament_id: GFL01
+2025-01-25 19:13:10.208021[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL P1P load filament_id: GFL01
+2025-01-25 19:13:10.208235[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL A1M load filament_id: GFL01
+2025-01-25 19:13:10.208453[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL A1M 0.2 nozzle load filament_id: GFL01
+2025-01-25 19:13:10.208653[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL A1 load filament_id: GFL01
+2025-01-25 19:13:10.208863[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL A1 0.2 nozzle load filament_id: GFL01
+2025-01-25 19:13:10.209056[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL X1C load filament_id: GFL00
+2025-01-25 19:13:10.209251[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL X1 load filament_id: GFL00
+2025-01-25 19:13:10.209461[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL P1P load filament_id: GFL00
+2025-01-25 19:13:10.209660[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL A1M load filament_id: GFL00
+2025-01-25 19:13:10.209863[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL A1M 0.2 nozzle load filament_id: GFL00
+2025-01-25 19:13:10.210097[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL A1 load filament_id: GFL00
+2025-01-25 19:13:10.210350[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL A1 0.2 nozzle load filament_id: GFL00
+2025-01-25 19:13:10.210592[Thread 0x000079d158164240]:operator() 3489, Generic PLA load filament_id: GFL99
+2025-01-25 19:13:10.210789[Thread 0x000079d158164240]:operator() 3489, Generic PLA @0.2 nozzle load filament_id: GFL99
+2025-01-25 19:13:10.211016[Thread 0x000079d158164240]:operator() 3489, Generic PLA @BBL P1P 0.2 nozzle load filament_id: GFL99
+2025-01-25 19:13:10.211233[Thread 0x000079d158164240]:operator() 3489, Generic PLA @BBL P1P load filament_id: GFL99
+2025-01-25 19:13:10.211468[Thread 0x000079d158164240]:operator() 3489, Generic PLA @BBL A1M load filament_id: GFL99
+2025-01-25 19:13:10.211706[Thread 0x000079d158164240]:operator() 3489, Generic PLA @BBL A1M 0.2 nozzle load filament_id: GFL99
+2025-01-25 19:13:10.211943[Thread 0x000079d158164240]:operator() 3489, Generic PLA @BBL A1 load filament_id: GFL99
+2025-01-25 19:13:10.212694[Thread 0x000079d158164240]:operator() 3489, Generic PLA @BBL A1 0.2 nozzle load filament_id: GFL99
+2025-01-25 19:13:10.212888[Thread 0x000079d158164240]:operator() 3489, Generic PLA Silk load filament_id: GFL96
+2025-01-25 19:13:10.213072[Thread 0x000079d158164240]:operator() 3489, Generic PLA Silk @BBL P1P load filament_id: GFL96
+2025-01-25 19:13:10.213272[Thread 0x000079d158164240]:operator() 3489, Generic PLA Silk @BBL A1M load filament_id: GFL96
+2025-01-25 19:13:10.213506[Thread 0x000079d158164240]:operator() 3489, Generic PLA Silk @BBL A1 load filament_id: GFL96
+2025-01-25 19:13:10.213709[Thread 0x000079d158164240]:operator() 3489, Generic PLA-CF load filament_id: GFL98
+2025-01-25 19:13:10.213913[Thread 0x000079d158164240]:operator() 3489, Generic PLA-CF @BBL P1P load filament_id: GFL98
+2025-01-25 19:13:10.214112[Thread 0x000079d158164240]:operator() 3489, Generic PLA-CF @BBL A1M load filament_id: GFL98
+2025-01-25 19:13:10.214322[Thread 0x000079d158164240]:operator() 3489, Generic PLA-CF @BBL A1 load filament_id: GFL98
+2025-01-25 19:13:10.214535[Thread 0x000079d158164240]:operator() 3489, Bambu PLA-CF @BBL X1C 0.8 nozzle load filament_id: GFA50
+2025-01-25 19:13:10.214747[Thread 0x000079d158164240]:operator() 3489, Bambu PLA-CF @BBL X1C load filament_id: GFA50
+2025-01-25 19:13:10.214963[Thread 0x000079d158164240]:operator() 3489, Bambu PLA-CF @BBL P1P load filament_id: GFA50
+2025-01-25 19:13:10.215180[Thread 0x000079d158164240]:operator() 3489, Bambu PLA-CF @BBL P1P 0.8 nozzle load filament_id: GFA50
+2025-01-25 19:13:10.215399[Thread 0x000079d158164240]:operator() 3489, Bambu PLA-CF @BBL A1M load filament_id: GFA50
+2025-01-25 19:13:10.215616[Thread 0x000079d158164240]:operator() 3489, Bambu PLA-CF @BBL A1M 0.8 nozzle load filament_id: GFA50
+2025-01-25 19:13:10.215857[Thread 0x000079d158164240]:operator() 3489, Bambu PLA-CF @BBL A1 load filament_id: GFA50
+2025-01-25 19:13:10.216076[Thread 0x000079d158164240]:operator() 3489, Bambu PLA-CF @BBL A1 0.8 nozzle load filament_id: GFA50
+2025-01-25 19:13:10.216273[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA @BBL X1C 0.2 nozzle load filament_id: GFS02
+2025-01-25 19:13:10.216462[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA @BBL X1C load filament_id: GFS02
+2025-01-25 19:13:10.216671[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA @BBL P1P 0.2 nozzle load filament_id: GFS02
+2025-01-25 19:13:10.216867[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA @BBL P1P load filament_id: GFS02
+2025-01-25 19:13:10.217065[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA @BBL A1M load filament_id: GFS02
+2025-01-25 19:13:10.217284[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA @BBL A1M 0.2 nozzle load filament_id: GFS02
+2025-01-25 19:13:10.217492[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA @BBL A1 load filament_id: GFS02
+2025-01-25 19:13:10.217720[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA @BBL A1 0.2 nozzle load filament_id: GFS02
+2025-01-25 19:13:10.217916[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Aero @BBL X1 load filament_id: GFA11
+2025-01-25 19:13:10.218149[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Aero @BBL X1C load filament_id: GFA11
+2025-01-25 19:13:10.218409[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Aero @BBL P1P load filament_id: GFA11
+2025-01-25 19:13:10.218670[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Aero @BBL A1M load filament_id: GFA11
+2025-01-25 19:13:10.218911[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Aero @BBL A1 load filament_id: GFA11
+2025-01-25 19:13:10.219115[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL X1C load filament_id: GFL04
+2025-01-25 19:13:10.219355[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL X1 load filament_id: GFL04
+2025-01-25 19:13:10.219584[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL P1P load filament_id: GFL04
+2025-01-25 19:13:10.219858[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL A1M load filament_id: GFL04
+2025-01-25 19:13:10.220089[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL A1 load filament_id: GFL04
+2025-01-25 19:13:10.220308[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL A1 0.2 nozzle load filament_id: GFL04
+2025-01-25 19:13:10.220541[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL X1C load filament_id: GFL05
+2025-01-25 19:13:10.220819[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL X1 load filament_id: GFL05
+2025-01-25 19:13:10.221025[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL P1P load filament_id: GFL05
+2025-01-25 19:13:10.221230[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL A1M load filament_id: GFL05
+2025-01-25 19:13:10.221441[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL A1 load filament_id: GFL05
+2025-01-25 19:13:10.221644[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL A1 0.2 nozzle load filament_id: GFL05
+2025-01-25 19:13:10.221862[Thread 0x000079d158164240]:operator() 3489, Generic PLA High Speed @BBL X1C load filament_id: GFL95
+2025-01-25 19:13:10.222075[Thread 0x000079d158164240]:operator() 3489, Generic PLA High Speed @BBL P1P load filament_id: GFL95
+2025-01-25 19:13:10.222274[Thread 0x000079d158164240]:operator() 3489, Generic PLA High Speed @BBL A1M load filament_id: GFL95
+2025-01-25 19:13:10.222472[Thread 0x000079d158164240]:operator() 3489, Generic PLA High Speed @BBL A1 load filament_id: GFL95
+2025-01-25 19:13:10.222696[Thread 0x000079d158164240]:operator() 3489, Generic PLA High Speed @BBL A1 0.2 nozzle load filament_id: GFL95
+2025-01-25 19:13:10.222908[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL X1C load filament_id: GFA12
+2025-01-25 19:13:10.223110[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL P1P load filament_id: GFA12
+2025-01-25 19:13:10.223318[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL X1E load filament_id: GFA12
+2025-01-25 19:13:10.223523[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL X1 load filament_id: GFA12
+2025-01-25 19:13:10.223729[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL A1 0.2 nozzle load filament_id: GFA12
+2025-01-25 19:13:10.223928[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL A1 load filament_id: GFA12
+2025-01-25 19:13:10.224138[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL X1C load filament_id: GFA13
+2025-01-25 19:13:10.224343[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL X1C 0.2 nozzle load filament_id: GFA13
+2025-01-25 19:13:10.224554[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL X1C 0.8 nozzle load filament_id: GFA13
+2025-01-25 19:13:10.224757[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL P1P load filament_id: GFA13
+2025-01-25 19:13:10.224960[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL P1P 0.2 nozzle load filament_id: GFA13
+2025-01-25 19:13:10.225164[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL A1 load filament_id: GFA13
+2025-01-25 19:13:10.225372[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL A1 0.2 nozzle load filament_id: GFA13
+2025-01-25 19:13:10.225578[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL A1M 0.2 nozzle load filament_id: GFA13
+2025-01-25 19:13:10.225785[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Dynamic @BBL A1M load filament_id: GFA13
+2025-01-25 19:13:10.225993[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL X1C load filament_id: GFA15
+2025-01-25 19:13:10.226214[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL X1C 0.2 nozzle load filament_id: GFA15
+2025-01-25 19:13:10.226413[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL X1C 0.8 nozzle load filament_id: GFA15
+2025-01-25 19:13:10.226650[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL P1P load filament_id: GFA15
+2025-01-25 19:13:10.226898[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL P1P 0.2 nozzle load filament_id: GFA15
+2025-01-25 19:13:10.227140[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL A1 load filament_id: GFA15
+2025-01-25 19:13:10.227378[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL A1 0.2 nozzle load filament_id: GFA15
+2025-01-25 19:13:10.227620[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL A1M load filament_id: GFA15
+2025-01-25 19:13:10.227832[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Galaxy @BBL A1M 0.2 nozzle load filament_id: GFA15
+2025-01-25 19:13:10.228064[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA/PETG @BBL X1C load filament_id: GFS05
+2025-01-25 19:13:10.228297[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA/PETG @BBL X1C 0.2 nozzle load filament_id: GFS05
+2025-01-25 19:13:10.228557[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA/PETG @BBL P1P load filament_id: GFS05
+2025-01-25 19:13:10.228820[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA/PETG @BBL P1P 0.2 nozzle load filament_id: GFS05
+2025-01-25 19:13:10.229035[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA/PETG @BBL A1M load filament_id: GFS05
+2025-01-25 19:13:10.229291[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA/PETG @BBL A1M 0.2 nozzle load filament_id: GFS05
+2025-01-25 19:13:10.229521[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA/PETG @BBL A1 load filament_id: GFS05
+2025-01-25 19:13:10.229718[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PLA/PETG @BBL A1 0.2 nozzle load filament_id: GFS05
+2025-01-25 19:13:10.229912[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Wood @BBL X1C load filament_id: GFA16
+2025-01-25 19:13:10.230121[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Wood @BBL X1C 0.8 nozzle load filament_id: GFA16
+2025-01-25 19:13:10.230323[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Wood @BBL X1 load filament_id: GFA16
+2025-01-25 19:13:10.230543[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Wood @BBL P1P load filament_id: GFA16
+2025-01-25 19:13:10.230765[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Wood @BBL A1 load filament_id: GFA16
+2025-01-25 19:13:10.230976[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Wood @BBL A1M load filament_id: GFA16
+2025-01-25 19:13:10.231183[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL X1C load filament_id: GFA06
+2025-01-25 19:13:10.231385[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL X1C 0.2 nozzle load filament_id: GFA06
+2025-01-25 19:13:10.231575[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL X1 load filament_id: GFA06
+2025-01-25 19:13:10.231776[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL P1P load filament_id: GFA06
+2025-01-25 19:13:10.231996[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL P1P 0.2 nozzle load filament_id: GFA06
+2025-01-25 19:13:10.232203[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL A1 load filament_id: GFA06
+2025-01-25 19:13:10.232425[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL A1 0.2 nozzle load filament_id: GFA06
+2025-01-25 19:13:10.232631[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL A1M load filament_id: GFA06
+2025-01-25 19:13:10.232852[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Silk+ @BBL A1M 0.2 nozzle load filament_id: GFA06
+2025-01-25 19:13:10.233091[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A @BBL X1C load filament_id: GFU01
+2025-01-25 19:13:10.233280[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A @BBL X1 load filament_id: GFU01
+2025-01-25 19:13:10.233483[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A @BBL P1P load filament_id: GFU01
+2025-01-25 19:13:10.233691[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A @BBL A1M load filament_id: GFU01
+2025-01-25 19:13:10.233906[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A @BBL A1 load filament_id: GFU01
+2025-01-25 19:13:10.234139[Thread 0x000079d158164240]:operator() 3489, Generic TPU @BBL A1M load filament_id: GFU99
+2025-01-25 19:13:10.234342[Thread 0x000079d158164240]:operator() 3489, Generic TPU @BBL A1 load filament_id: GFU99
+2025-01-25 19:13:10.234563[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A HF @BBL X1C load filament_id: GFU00
+2025-01-25 19:13:10.234768[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A HF @BBL X1 load filament_id: GFU00
+2025-01-25 19:13:10.235005[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A HF @BBL P1P load filament_id: GFU00
+2025-01-25 19:13:10.235228[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A HF @BBL P1S load filament_id: GFU00
+2025-01-25 19:13:10.235442[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A HF @BBL X1E load filament_id: GFU00
+2025-01-25 19:13:10.235640[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A HF @BBL A1M load filament_id: GFU00
+2025-01-25 19:13:10.235852[Thread 0x000079d158164240]:operator() 3489, Bambu TPU 95A HF @BBL A1 load filament_id: GFU00
+2025-01-25 19:13:10.236081[Thread 0x000079d158164240]:operator() 3489, Generic TPU for AMS @BBL X1C load filament_id: GFU98
+2025-01-25 19:13:10.236299[Thread 0x000079d158164240]:operator() 3489, Generic TPU for AMS @BBL P1P load filament_id: GFU98
+2025-01-25 19:13:10.236541[Thread 0x000079d158164240]:operator() 3489, Generic TPU for AMS @BBL A1 load filament_id: GFU98
+2025-01-25 19:13:10.236767[Thread 0x000079d158164240]:operator() 3489, Generic TPU for AMS @BBL A1M load filament_id: GFU98
+2025-01-25 19:13:10.236960[Thread 0x000079d158164240]:operator() 3489, Bambu TPU for AMS @BBL X1C load filament_id: GFU02
+2025-01-25 19:13:10.237202[Thread 0x000079d158164240]:operator() 3489, Bambu TPU for AMS @BBL P1P load filament_id: GFU02
+2025-01-25 19:13:10.237410[Thread 0x000079d158164240]:operator() 3489, Bambu TPU for AMS @BBL A1 load filament_id: GFU02
+2025-01-25 19:13:10.238101[Thread 0x000079d158164240]:operator() 3489, Bambu TPU for AMS @BBL A1M load filament_id: GFU02
+2025-01-25 19:13:10.238308[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL X1C load filament_id: GFG00
+2025-01-25 19:13:10.238497[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL X1C 0.2 nozzle load filament_id: GFG00
+2025-01-25 19:13:10.238695[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL X1C 0.8 nozzle load filament_id: GFG00
+2025-01-25 19:13:10.238886[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL A1 load filament_id: GFG00
+2025-01-25 19:13:10.239067[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL A1 0.2 nozzle load filament_id: GFG00
+2025-01-25 19:13:10.239256[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL A1 0.8 nozzle load filament_id: GFG00
+2025-01-25 19:13:10.239455[Thread 0x000079d158164240]:operator() 3489, Bambu PET-CF @BBL X1C load filament_id: GFT01
+2025-01-25 19:13:10.239651[Thread 0x000079d158164240]:operator() 3489, Bambu PET-CF @BBL P1P load filament_id: GFT01
+2025-01-25 19:13:10.239849[Thread 0x000079d158164240]:operator() 3489, Bambu PET-CF @BBL A1 load filament_id: GFT01
+2025-01-25 19:13:10.240049[Thread 0x000079d158164240]:operator() 3489, Generic PETG load filament_id: GFG99
+2025-01-25 19:13:10.240234[Thread 0x000079d158164240]:operator() 3489, Generic PETG @0.2 nozzle load filament_id: GFG99
+2025-01-25 19:13:10.240430[Thread 0x000079d158164240]:operator() 3489, Generic PETG @BBL P1P load filament_id: GFG99
+2025-01-25 19:13:10.240619[Thread 0x000079d158164240]:operator() 3489, Generic PETG @BBL P1P 0.2 nozzle load filament_id: GFG99
+2025-01-25 19:13:10.240800[Thread 0x000079d158164240]:operator() 3489, Generic PETG @BBL A1M load filament_id: GFG99
+2025-01-25 19:13:10.240977[Thread 0x000079d158164240]:operator() 3489, Generic PETG @BBL A1M 0.2 nozzle load filament_id: GFG99
+2025-01-25 19:13:10.241175[Thread 0x000079d158164240]:operator() 3489, Generic PETG @BBL A1 load filament_id: GFG99
+2025-01-25 19:13:10.241366[Thread 0x000079d158164240]:operator() 3489, Generic PETG @BBL A1 0.2 nozzle load filament_id: GFG99
+2025-01-25 19:13:10.241583[Thread 0x000079d158164240]:operator() 3489, Generic PETG-CF @BBL X1C load filament_id: GFG98
+2025-01-25 19:13:10.241779[Thread 0x000079d158164240]:operator() 3489, Generic PETG-CF @BBL P1P load filament_id: GFG98
+2025-01-25 19:13:10.241973[Thread 0x000079d158164240]:operator() 3489, Generic PETG-CF @BBL A1 load filament_id: GFG98
+2025-01-25 19:13:10.242189[Thread 0x000079d158164240]:operator() 3489, Bambu PETG-CF @BBL X1C load filament_id: GFG50
+2025-01-25 19:13:10.242397[Thread 0x000079d158164240]:operator() 3489, Bambu PETG-CF @BBL X1C 0.4 nozzle load filament_id: GFG50
+2025-01-25 19:13:10.242585[Thread 0x000079d158164240]:operator() 3489, Bambu PETG-CF @BBL P1P load filament_id: GFG50
+2025-01-25 19:13:10.242788[Thread 0x000079d158164240]:operator() 3489, Bambu PETG-CF @BBL P1P 0.4 nozzle load filament_id: GFG50
+2025-01-25 19:13:10.242986[Thread 0x000079d158164240]:operator() 3489, Bambu PETG-CF @BBL A1M load filament_id: GFG50
+2025-01-25 19:13:10.243206[Thread 0x000079d158164240]:operator() 3489, Bambu PETG-CF @BBL A1 0.4 nozzle load filament_id: GFG50
+2025-01-25 19:13:10.243485[Thread 0x000079d158164240]:operator() 3489, Bambu PETG-CF @BBL A1 0.8 nozzle load filament_id: GFG50
+2025-01-25 19:13:10.243733[Thread 0x000079d158164240]:operator() 3489, PolyLite PETG @BBL X1C load filament_id: GFG60
+2025-01-25 19:13:10.243946[Thread 0x000079d158164240]:operator() 3489, PolyLite PETG @BBL P1P load filament_id: GFG60
+2025-01-25 19:13:10.244132[Thread 0x000079d158164240]:operator() 3489, PolyLite PETG @BBL A1M load filament_id: GFG60
+2025-01-25 19:13:10.244358[Thread 0x000079d158164240]:operator() 3489, PolyLite PETG @BBL A1 load filament_id: GFG60
+2025-01-25 19:13:10.244558[Thread 0x000079d158164240]:operator() 3489, PolyLite PETG @BBL A1 0.2 nozzle load filament_id: GFG60
+2025-01-25 19:13:10.244791[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL X1C load filament_id: GFG01
+2025-01-25 19:13:10.245034[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL X1C 0.8 nozzle load filament_id: GFG01
+2025-01-25 19:13:10.245239[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL A1M load filament_id: GFG01
+2025-01-25 19:13:10.245461[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL A1M 0.8 nozzle load filament_id: GFG01
+2025-01-25 19:13:10.245692[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL A1 0.8 nozzle load filament_id: GFG01
+2025-01-25 19:13:10.245924[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL A1 load filament_id: GFG01
+2025-01-25 19:13:10.246112[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL X1C 0.2 nozzle load filament_id: GFG01
+2025-01-25 19:13:10.246314[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL A1M 0.2 nozzle load filament_id: GFG01
+2025-01-25 19:13:10.246505[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Translucent @BBL A1 0.2 nozzle load filament_id: GFG01
+2025-01-25 19:13:10.246731[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL X1C load filament_id: GFG02
+2025-01-25 19:13:10.246934[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL X1C 0.2 nozzle load filament_id: GFG02
+2025-01-25 19:13:10.247139[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL X1C 0.8 nozzle load filament_id: GFG02
+2025-01-25 19:13:10.247344[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL A1 load filament_id: GFG02
+2025-01-25 19:13:10.247574[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL A1 0.2 nozzle load filament_id: GFG02
+2025-01-25 19:13:10.247774[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL A1 0.8 nozzle load filament_id: GFG02
+2025-01-25 19:13:10.247982[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL A1M load filament_id: GFG02
+2025-01-25 19:13:10.248200[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL A1M 0.2 nozzle load filament_id: GFG02
+2025-01-25 19:13:10.248403[Thread 0x000079d158164240]:operator() 3489, Bambu PETG HF @BBL A1M 0.8 nozzle load filament_id: GFG02
+2025-01-25 19:13:10.248604[Thread 0x000079d158164240]:operator() 3489, Generic PCTG @BBL X1C load filament_id: GFG97
+2025-01-25 19:13:10.248797[Thread 0x000079d158164240]:operator() 3489, Generic PCTG @BBL A1 load filament_id: GFG97
+2025-01-25 19:13:10.248970[Thread 0x000079d158164240]:operator() 3489, Generic PCTG @BBL A1M load filament_id: GFG97
+2025-01-25 19:13:10.249175[Thread 0x000079d158164240]:operator() 3489, Fiberon PETG-ESD @BBL X1C load filament_id: GFL06
+2025-01-25 19:13:10.249382[Thread 0x000079d158164240]:operator() 3489, Fiberon PETG-rCF @BBL X1C load filament_id: GFL55
+2025-01-25 19:13:10.249570[Thread 0x000079d158164240]:operator() 3489, Fiberon PET-CF @BBL X1C load filament_id: GFL54
+2025-01-25 19:13:10.249754[Thread 0x000079d158164240]:operator() 3489, Generic PETG HF @BBL X1C load filament_id: GFG96
+2025-01-25 19:13:10.249940[Thread 0x000079d158164240]:operator() 3489, Generic PETG HF @BBL X1C 0.2 nozzle load filament_id: GFG96
+2025-01-25 19:13:10.250129[Thread 0x000079d158164240]:operator() 3489, Generic PETG HF @BBL P1P load filament_id: GFG96
+2025-01-25 19:13:10.250303[Thread 0x000079d158164240]:operator() 3489, Generic PETG HF @BBL P1P 0.2 nozzle load filament_id: GFG96
+2025-01-25 19:13:10.250481[Thread 0x000079d158164240]:operator() 3489, Generic PETG HF @BBL A1 load filament_id: GFG96
+2025-01-25 19:13:10.250690[Thread 0x000079d158164240]:operator() 3489, Generic PETG HF @BBL A1 0.2 nozzle load filament_id: GFG96
+2025-01-25 19:13:10.250877[Thread 0x000079d158164240]:operator() 3489, Generic PETG HF @BBL A1M load filament_id: GFG96
+2025-01-25 19:13:10.251060[Thread 0x000079d158164240]:operator() 3489, Generic PETG HF @BBL A1M 0.2 nozzle load filament_id: GFG96
+2025-01-25 19:13:10.251296[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL X1C load filament_id: GFB00
+2025-01-25 19:13:10.251513[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL X1C 0.2 nozzle load filament_id: GFB00
+2025-01-25 19:13:10.251739[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL X1C 0.8 nozzle load filament_id: GFB00
+2025-01-25 19:13:10.251981[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL P1P 0.2 nozzle load filament_id: GFB00
+2025-01-25 19:13:10.252193[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL P1P load filament_id: GFB00
+2025-01-25 19:13:10.252406[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL A1 load filament_id: GFB00
+2025-01-25 19:13:10.252621[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL A1 0.2 nozzle load filament_id: GFB00
+2025-01-25 19:13:10.252832[Thread 0x000079d158164240]:operator() 3489, Generic ABS load filament_id: GFB99
+2025-01-25 19:13:10.253034[Thread 0x000079d158164240]:operator() 3489, Generic ABS @0.2 nozzle load filament_id: GFB99
+2025-01-25 19:13:10.253276[Thread 0x000079d158164240]:operator() 3489, Generic ABS @BBL P1P 0.2 nozzle load filament_id: GFB99
+2025-01-25 19:13:10.254602[Thread 0x000079d158164240]:operator() 3489, Generic ABS @BBL P1P load filament_id: GFB99
+2025-01-25 19:13:10.255011[Thread 0x000079d158164240]:operator() 3489, Generic ABS @BBL A1 load filament_id: GFB99
+2025-01-25 19:13:10.255364[Thread 0x000079d158164240]:operator() 3489, Generic ABS @BBL A1 0.2 nozzle load filament_id: GFB99
+2025-01-25 19:13:10.255722[Thread 0x000079d158164240]:operator() 3489, PolyLite ABS @BBL X1C load filament_id: GFB60
+2025-01-25 19:13:10.256127[Thread 0x000079d158164240]:operator() 3489, PolyLite ABS @BBL P1P load filament_id: GFB60
+2025-01-25 19:13:10.256386[Thread 0x000079d158164240]:operator() 3489, PolyLite ABS @BBL A1 load filament_id: GFB60
+2025-01-25 19:13:10.256644[Thread 0x000079d158164240]:operator() 3489, PolyLite ABS @BBL A1 0.2 nozzle load filament_id: GFB60
+2025-01-25 19:13:10.257330[Thread 0x000079d158164240]:operator() 3489, Bambu ABS-GF @BBL X1C load filament_id: GFB50
+2025-01-25 19:13:10.257573[Thread 0x000079d158164240]:operator() 3489, Bambu ABS-GF @BBL P1P load filament_id: GFB50
+2025-01-25 19:13:10.257789[Thread 0x000079d158164240]:operator() 3489, Bambu ABS-GF @BBL A1 load filament_id: GFB50
+2025-01-25 19:13:10.258006[Thread 0x000079d158164240]:operator() 3489, Bambu Support for ABS @BBL X1C load filament_id: GFS06
+2025-01-25 19:13:10.258219[Thread 0x000079d158164240]:operator() 3489, Bambu Support for ABS @BBL A1 load filament_id: GFS06
+2025-01-25 19:13:10.258419[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL X1C load filament_id: GFC00
+2025-01-25 19:13:10.258622[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL X1C 0.2 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.258817[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL X1C 0.8 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.259015[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL X1C 0.6 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.259212[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL P1P load filament_id: GFC00
+2025-01-25 19:13:10.259407[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL P1P 0.2 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.259608[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL A1 0.2 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.259815[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL A1 load filament_id: GFC00
+2025-01-25 19:13:10.260070[Thread 0x000079d158164240]:operator() 3489, Generic PC @0.2 nozzle load filament_id: GFC99
+2025-01-25 19:13:10.260287[Thread 0x000079d158164240]:operator() 3489, Generic PC load filament_id: GFC99
+2025-01-25 19:13:10.260517[Thread 0x000079d158164240]:operator() 3489, Generic PC @BBL P1P 0.2 nozzle load filament_id: GFC99
+2025-01-25 19:13:10.260728[Thread 0x000079d158164240]:operator() 3489, Generic PC @BBL P1P load filament_id: GFC99
+2025-01-25 19:13:10.260948[Thread 0x000079d158164240]:operator() 3489, Generic PC @BBL A1 load filament_id: GFC99
+2025-01-25 19:13:10.261180[Thread 0x000079d158164240]:operator() 3489, Generic PC @BBL A1 0.2 nozzle load filament_id: GFC99
+2025-01-25 19:13:10.261376[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL X1C load filament_id: GFC01
+2025-01-25 19:13:10.261597[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL X1C 0.6 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.261813[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL X1C 0.8 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.262003[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL X1C 0.2 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.262218[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL P1S load filament_id: GFC01
+2025-01-25 19:13:10.262447[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL P1S 0.2 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.262679[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL P1S 0.6 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.262906[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL P1S 0.8 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.263109[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL P1P load filament_id: GFC01
+2025-01-25 19:13:10.263338[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL P1P 0.2 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.263534[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL X1E load filament_id: GFC01
+2025-01-25 19:13:10.263749[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL X1E 0.2 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.263950[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL X1E 0.6 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.264160[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL X1E 0.8 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.264376[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL A1 load filament_id: GFC01
+2025-01-25 19:13:10.264583[Thread 0x000079d158164240]:operator() 3489, Bambu PC FR @BBL A1 0.2 nozzle load filament_id: GFC01
+2025-01-25 19:13:10.264809[Thread 0x000079d158164240]:operator() 3489, Generic ASA @0.2 nozzle load filament_id: GFB98
+2025-01-25 19:13:10.264994[Thread 0x000079d158164240]:operator() 3489, Generic ASA load filament_id: GFB98
+2025-01-25 19:13:10.265191[Thread 0x000079d158164240]:operator() 3489, Generic ASA @BBL P1P 0.2 nozzle load filament_id: GFB98
+2025-01-25 19:13:10.265379[Thread 0x000079d158164240]:operator() 3489, Generic ASA @BBL P1P load filament_id: GFB98
+2025-01-25 19:13:10.265580[Thread 0x000079d158164240]:operator() 3489, Generic ASA @BBL A1 0.2 nozzle load filament_id: GFB98
+2025-01-25 19:13:10.265784[Thread 0x000079d158164240]:operator() 3489, Generic ASA @BBL A1 load filament_id: GFB98
+2025-01-25 19:13:10.265989[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL X1 0.2 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.266190[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL X1 0.6 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.266378[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL X1C load filament_id: GFB01
+2025-01-25 19:13:10.266570[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL X1C 0.2 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.266837[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL X1C 0.4 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.267531[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL A1 0.6 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.267960[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL A1 0.4 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.268281[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL A1 0.2 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.268547[Thread 0x000079d158164240]:operator() 3489, PolyLite ASA @BBL X1C load filament_id: GFB61
+2025-01-25 19:13:10.268796[Thread 0x000079d158164240]:operator() 3489, PolyLite ASA @BBL P1P load filament_id: GFB61
+2025-01-25 19:13:10.269008[Thread 0x000079d158164240]:operator() 3489, PolyLite ASA @BBL A1 0.2 nozzle load filament_id: GFB61
+2025-01-25 19:13:10.269262[Thread 0x000079d158164240]:operator() 3489, PolyLite ASA @BBL A1 load filament_id: GFB61
+2025-01-25 19:13:10.269507[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-Aero @BBL X1C load filament_id: GFB02
+2025-01-25 19:13:10.269722[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-Aero @BBL P1P load filament_id: GFB02
+2025-01-25 19:13:10.269952[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-Aero @BBL A1 load filament_id: GFB02
+2025-01-25 19:13:10.270166[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-CF @BBL X1C load filament_id: GFB51
+2025-01-25 19:13:10.270356[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-CF @BBL X1C 0.6 nozzle load filament_id: GFB51
+2025-01-25 19:13:10.270571[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-CF @BBL P1P load filament_id: GFB51
+2025-01-25 19:13:10.270782[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-CF @BBL P1P 0.6 nozzle load filament_id: GFB51
+2025-01-25 19:13:10.270999[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-CF @BBL A1 load filament_id: GFB51
+2025-01-25 19:13:10.271189[Thread 0x000079d158164240]:operator() 3489, Bambu ASA-CF @BBL A1 0.6 nozzle load filament_id: GFB51
+2025-01-25 19:13:10.271415[Thread 0x000079d158164240]:operator() 3489, Generic PVA @0.2 nozzle load filament_id: GFS99
+2025-01-25 19:13:10.271627[Thread 0x000079d158164240]:operator() 3489, Generic PVA load filament_id: GFS99
+2025-01-25 19:13:10.271822[Thread 0x000079d158164240]:operator() 3489, Generic PVA @BBL P1P 0.2 nozzle load filament_id: GFS99
+2025-01-25 19:13:10.272036[Thread 0x000079d158164240]:operator() 3489, Generic PVA @BBL P1P load filament_id: GFS99
+2025-01-25 19:13:10.272260[Thread 0x000079d158164240]:operator() 3489, Generic PVA @BBL A1M load filament_id: GFS99
+2025-01-25 19:13:10.272474[Thread 0x000079d158164240]:operator() 3489, Generic PVA @BBL A1M 0.2 nozzle load filament_id: GFS99
+2025-01-25 19:13:10.272681[Thread 0x000079d158164240]:operator() 3489, Generic PVA @BBL A1 load filament_id: GFS99
+2025-01-25 19:13:10.272896[Thread 0x000079d158164240]:operator() 3489, Generic PVA @BBL A1 0.2 nozzle load filament_id: GFS99
+2025-01-25 19:13:10.273140[Thread 0x000079d158164240]:operator() 3489, Bambu PVA @BBL X1C load filament_id: GFS04
+2025-01-25 19:13:10.273348[Thread 0x000079d158164240]:operator() 3489, Bambu PVA @BBL X1C 0.2 nozzle load filament_id: GFS04
+2025-01-25 19:13:10.273569[Thread 0x000079d158164240]:operator() 3489, Bambu PVA @BBL P1P load filament_id: GFS04
+2025-01-25 19:13:10.273802[Thread 0x000079d158164240]:operator() 3489, Bambu PVA @BBL P1P 0.2 nozzle load filament_id: GFS04
+2025-01-25 19:13:10.274041[Thread 0x000079d158164240]:operator() 3489, Bambu PVA @BBL A1 load filament_id: GFS04
+2025-01-25 19:13:10.274264[Thread 0x000079d158164240]:operator() 3489, Bambu PVA @BBL A1 0.2 nozzle load filament_id: GFS04
+2025-01-25 19:13:10.274478[Thread 0x000079d158164240]:operator() 3489, Bambu PVA @BBL A1M load filament_id: GFS04
+2025-01-25 19:13:10.274699[Thread 0x000079d158164240]:operator() 3489, Bambu PVA @BBL A1M 0.2 nozzle load filament_id: GFS04
+2025-01-25 19:13:10.274918[Thread 0x000079d158164240]:operator() 3489, Bambu Support G @BBL X1C load filament_id: GFS01
+2025-01-25 19:13:10.275114[Thread 0x000079d158164240]:operator() 3489, Bambu Support G @BBL P1P load filament_id: GFS01
+2025-01-25 19:13:10.275317[Thread 0x000079d158164240]:operator() 3489, Bambu Support G @BBL A1 load filament_id: GFS01
+2025-01-25 19:13:10.275527[Thread 0x000079d158164240]:operator() 3489, Bambu PA-CF @BBL X1C load filament_id: GFN03
+2025-01-25 19:13:10.275725[Thread 0x000079d158164240]:operator() 3489, Bambu PA-CF @BBL P1P load filament_id: GFN03
+2025-01-25 19:13:10.275929[Thread 0x000079d158164240]:operator() 3489, Bambu PA-CF @BBL A1 load filament_id: GFN03
+2025-01-25 19:13:10.276155[Thread 0x000079d158164240]:operator() 3489, Generic PA @BBL A1 load filament_id: GFN99
+2025-01-25 19:13:10.276394[Thread 0x000079d158164240]:operator() 3489, Generic PA-CF @BBL X1E load filament_id: GFN98
+2025-01-25 19:13:10.276614[Thread 0x000079d158164240]:operator() 3489, Generic PA-CF @BBL A1 load filament_id: GFN98
+2025-01-25 19:13:10.276923[Thread 0x000079d158164240]:operator() 3489, Bambu PAHT-CF @BBL X1C load filament_id: GFN04
+2025-01-25 19:13:10.277149[Thread 0x000079d158164240]:operator() 3489, Bambu PAHT-CF @BBL P1P load filament_id: GFN04
+2025-01-25 19:13:10.277357[Thread 0x000079d158164240]:operator() 3489, Bambu PAHT-CF @BBL A1 load filament_id: GFN04
+2025-01-25 19:13:10.277630[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PA/PET @BBL P1P load filament_id: GFS03
+2025-01-25 19:13:10.277869[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PA/PET @BBL X1C load filament_id: GFS03
+2025-01-25 19:13:10.278109[Thread 0x000079d158164240]:operator() 3489, Bambu Support For PA/PET @BBL A1 load filament_id: GFS03
+2025-01-25 19:13:10.278523[Thread 0x000079d158164240]:operator() 3489, Bambu PA6-CF @BBL X1C load filament_id: GFN05
+2025-01-25 19:13:10.278756[Thread 0x000079d158164240]:operator() 3489, Bambu PA6-CF @BBL X1E load filament_id: GFN05
+2025-01-25 19:13:10.279004[Thread 0x000079d158164240]:operator() 3489, Bambu PA6-CF @BBL A1 load filament_id: GFN05
+2025-01-25 19:13:10.279251[Thread 0x000079d158164240]:operator() 3489, Bambu PA6-GF @BBL X1C load filament_id: GFN08
+2025-01-25 19:13:10.279459[Thread 0x000079d158164240]:operator() 3489, Bambu PA6-GF @BBL P1P load filament_id: GFN08
+2025-01-25 19:13:10.279664[Thread 0x000079d158164240]:operator() 3489, Bambu PA6-GF @BBL A1 load filament_id: GFN08
+2025-01-25 19:13:10.279882[Thread 0x000079d158164240]:operator() 3489, Fiberon PA6-CF @BBL X1C load filament_id: GFL50
+2025-01-25 19:13:10.280092[Thread 0x000079d158164240]:operator() 3489, Fiberon PA6-GF @BBL X1C load filament_id: GFL51
+2025-01-25 19:13:10.280546[Thread 0x000079d158164240]:operator() 3489, Fiberon PA12-CF @BBL X1C load filament_id: GFL52
+2025-01-25 19:13:10.280874[Thread 0x000079d158164240]:operator() 3489, Fiberon PA612-CF @BBL X1C load filament_id: GFL53
+2025-01-25 19:13:10.281273[Thread 0x000079d158164240]:operator() 3489, Generic HIPS @BBL X1C load filament_id: GFS98
+2025-01-25 19:13:10.281578[Thread 0x000079d158164240]:operator() 3489, Generic HIPS @BBL X1C 0.2 nozzle load filament_id: GFS98
+2025-01-25 19:13:10.281822[Thread 0x000079d158164240]:operator() 3489, Generic HIPS @BBL A1M load filament_id: GFS98
+2025-01-25 19:13:10.282050[Thread 0x000079d158164240]:operator() 3489, Generic HIPS @BBL A1M 0.2 nozzle load filament_id: GFS98
+2025-01-25 19:13:10.282275[Thread 0x000079d158164240]:operator() 3489, Generic HIPS @BBL A1 load filament_id: GFS98
+2025-01-25 19:13:10.282479[Thread 0x000079d158164240]:operator() 3489, Generic HIPS @BBL A1 0.2 nozzle load filament_id: GFS98
+2025-01-25 19:13:10.282667[Thread 0x000079d158164240]:operator() 3489, Generic PPS-CF @BBL X1E load filament_id: GFT98
+2025-01-25 19:13:10.282867[Thread 0x000079d158164240]:operator() 3489, Generic PPS @BBL X1E load filament_id: GFT97
+2025-01-25 19:13:10.283083[Thread 0x000079d158164240]:operator() 3489, Bambu PPS-CF @BBL X1E load filament_id: GFT02
+2025-01-25 19:13:10.283292[Thread 0x000079d158164240]:operator() 3489, Bambu PPA-CF @BBL X1C load filament_id: GFN06
+2025-01-25 19:13:10.283501[Thread 0x000079d158164240]:operator() 3489, Bambu PPA-CF @BBL X1E load filament_id: GFN06
+2025-01-25 19:13:10.283746[Thread 0x000079d158164240]:operator() 3489, Generic PPA-CF @BBL X1E load filament_id: GFN97
+2025-01-25 19:13:10.283965[Thread 0x000079d158164240]:operator() 3489, Generic PPA-CF @BBL X1C load filament_id: GFN97
+2025-01-25 19:13:10.284186[Thread 0x000079d158164240]:operator() 3489, Generic PPA-GF @BBL X1C load filament_id: GFN96
+2025-01-25 19:13:10.284382[Thread 0x000079d158164240]:operator() 3489, Generic PPA-GF @BBL X1E load filament_id: GFN96
+2025-01-25 19:13:10.284611[Thread 0x000079d158164240]:operator() 3489, Generic PE @BBL X1C load filament_id: GFP99
+2025-01-25 19:13:10.284820[Thread 0x000079d158164240]:operator() 3489, Generic PE @BBL A1 load filament_id: GFP99
+2025-01-25 19:13:10.285054[Thread 0x000079d158164240]:operator() 3489, Generic PE @BBL A1M load filament_id: GFP99
+2025-01-25 19:13:10.285355[Thread 0x000079d158164240]:operator() 3489, Generic PE-CF @BBL X1C load filament_id: GFP98
+2025-01-25 19:13:10.285549[Thread 0x000079d158164240]:operator() 3489, Generic PE-CF @BBL A1 load filament_id: GFP98
+2025-01-25 19:13:10.285743[Thread 0x000079d158164240]:operator() 3489, Generic PE-CF @BBL A1M load filament_id: GFP98
+2025-01-25 19:13:10.285999[Thread 0x000079d158164240]:operator() 3489, Generic PP @BBL X1C load filament_id: GFP97
+2025-01-25 19:13:10.286221[Thread 0x000079d158164240]:operator() 3489, Generic PP @BBL A1 load filament_id: GFP97
+2025-01-25 19:13:10.286419[Thread 0x000079d158164240]:operator() 3489, Generic PP @BBL A1M load filament_id: GFP97
+2025-01-25 19:13:10.286707[Thread 0x000079d158164240]:operator() 3489, Generic PP-CF @BBL X1C load filament_id: GFP96
+2025-01-25 19:13:10.286972[Thread 0x000079d158164240]:operator() 3489, Generic PP-CF @BBL A1 load filament_id: GFP96
+2025-01-25 19:13:10.287213[Thread 0x000079d158164240]:operator() 3489, Generic PP-GF @BBL X1C load filament_id: GFP95
+2025-01-25 19:13:10.287438[Thread 0x000079d158164240]:operator() 3489, Generic PP-GF @BBL A1 load filament_id: GFP95
+2025-01-25 19:13:10.287720[Thread 0x000079d158164240]:operator() 3489, Generic EVA @BBL X1C load filament_id: GFR99
+2025-01-25 19:13:10.287914[Thread 0x000079d158164240]:operator() 3489, Generic EVA @BBL A1 load filament_id: GFR99
+2025-01-25 19:13:10.288100[Thread 0x000079d158164240]:operator() 3489, Generic EVA @BBL A1M load filament_id: GFR99
+2025-01-25 19:13:10.288316[Thread 0x000079d158164240]:operator() 3489, Generic PHA @BBL X1C load filament_id: GFR98
+2025-01-25 19:13:10.288507[Thread 0x000079d158164240]:operator() 3489, Generic PHA @BBL A1M load filament_id: GFR98
+2025-01-25 19:13:10.288702[Thread 0x000079d158164240]:operator() 3489, Generic PHA @BBL A1 load filament_id: GFR98
+2025-01-25 19:13:10.288905[Thread 0x000079d158164240]:operator() 3489, Generic BVOH @BBL X1C load filament_id: GFS97
+2025-01-25 19:13:10.289102[Thread 0x000079d158164240]:operator() 3489, Generic BVOH @BBL A1M load filament_id: GFS97
+2025-01-25 19:13:10.289299[Thread 0x000079d158164240]:operator() 3489, Generic BVOH @BBL A1 load filament_id: GFS97
+2025-01-25 19:13:10.289496[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL X1C 0.2 nozzle load filament_id: GFL01
+2025-01-25 19:13:10.289699[Thread 0x000079d158164240]:operator() 3489, PolyTerra PLA @BBL P1P 0.2 nozzle load filament_id: GFL01
+2025-01-25 19:13:10.289921[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL X1C 0.2 nozzle load filament_id: GFL00
+2025-01-25 19:13:10.290126[Thread 0x000079d158164240]:operator() 3489, PolyLite PLA @BBL P1P 0.2 nozzle load filament_id: GFL00
+2025-01-25 19:13:10.290320[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL X1C 0.2 nozzle load filament_id: GFL04
+2025-01-25 19:13:10.290515[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL P1P 0.2 nozzle load filament_id: GFL04
+2025-01-25 19:13:10.290712[Thread 0x000079d158164240]:operator() 3489, Overture PLA @BBL A1M 0.2 nozzle load filament_id: GFL04
+2025-01-25 19:13:10.290908[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL X1C 0.2 nozzle load filament_id: GFL05
+2025-01-25 19:13:10.291113[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL P1P 0.2 nozzle load filament_id: GFL05
+2025-01-25 19:13:10.291300[Thread 0x000079d158164240]:operator() 3489, Overture Matte PLA @BBL A1M 0.2 nozzle load filament_id: GFL05
+2025-01-25 19:13:10.291304[Thread 0x000079d158164240]:set_printer_hold_alias Bambu Lab P1P 0.2 nozzlealready has alias: Overture Matte PLA and the preset name: Overture Matte PLA @BBL A1M 0.2 nozzle
+2025-01-25 19:13:10.291522[Thread 0x000079d158164240]:operator() 3489, Generic PLA High Speed @BBL X1C 0.2 nozzle load filament_id: GFL95
+2025-01-25 19:13:10.291721[Thread 0x000079d158164240]:operator() 3489, Generic PLA High Speed @BBL P1P 0.2 nozzle load filament_id: GFL95
+2025-01-25 19:13:10.291927[Thread 0x000079d158164240]:operator() 3489, Generic PLA High Speed @BBL A1M 0.2 nozzle load filament_id: GFL95
+2025-01-25 19:13:10.292167[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL X1C 0.2 nozzle load filament_id: GFA12
+2025-01-25 19:13:10.292367[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL P1P 0.2 nozzle load filament_id: GFA12
+2025-01-25 19:13:10.292569[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL X1E 0.2 nozzle load filament_id: GFA12
+2025-01-25 19:13:10.292780[Thread 0x000079d158164240]:operator() 3489, Bambu PLA Glow @BBL X1 0.2 nozzle load filament_id: GFA12
+2025-01-25 19:13:10.293111[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL A1M 0.4 nozzle load filament_id: GFG00
+2025-01-25 19:13:10.293380[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL A1M 0.2 nozzle load filament_id: GFG00
+2025-01-25 19:13:10.293683[Thread 0x000079d158164240]:operator() 3489, Bambu PETG Basic @BBL A1M 0.8 nozzle load filament_id: GFG00
+2025-01-25 19:13:10.293921[Thread 0x000079d158164240]:operator() 3489, Generic PETG-CF @BBL A1M load filament_id: GFG98
+2025-01-25 19:13:10.294120[Thread 0x000079d158164240]:operator() 3489, Bambu PETG-CF @BBL A1M 0.4 nozzle load filament_id: GFG50
+2025-01-25 19:13:10.294351[Thread 0x000079d158164240]:operator() 3489, Bambu PET-CF @BBL X1E load filament_id: GFT01
+2025-01-25 19:13:10.294585[Thread 0x000079d158164240]:operator() 3489, PolyLite PETG @BBL X1C 0.2 nozzle load filament_id: GFG60
+2025-01-25 19:13:10.294873[Thread 0x000079d158164240]:operator() 3489, PolyLite PETG @BBL P1P 0.2 nozzle load filament_id: GFG60
+2025-01-25 19:13:10.295161[Thread 0x000079d158164240]:operator() 3489, PolyLite PETG @BBL A1M 0.2 nozzle load filament_id: GFG60
+2025-01-25 19:13:10.295362[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL X1E load filament_id: GFB00
+2025-01-25 19:13:10.295603[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL X1E 0.2 nozzle load filament_id: GFB00
+2025-01-25 19:13:10.295828[Thread 0x000079d158164240]:operator() 3489, Bambu ABS @BBL X1E 0.8 nozzle load filament_id: GFB00
+2025-01-25 19:13:10.296139[Thread 0x000079d158164240]:operator() 3489, Generic ABS @BBL X1E load filament_id: GFB99
+2025-01-25 19:13:10.296344[Thread 0x000079d158164240]:operator() 3489, Generic ABS @BBL X1E 0.2 nozzle load filament_id: GFB99
+2025-01-25 19:13:10.296539[Thread 0x000079d158164240]:operator() 3489, PolyLite ABS @BBL X1E load filament_id: GFB60
+2025-01-25 19:13:10.296738[Thread 0x000079d158164240]:operator() 3489, PolyLite ABS @BBL X1C 0.2 nozzle load filament_id: GFB60
+2025-01-25 19:13:10.296968[Thread 0x000079d158164240]:operator() 3489, PolyLite ABS @BBL P1P 0.2 nozzle load filament_id: GFB60
+2025-01-25 19:13:10.297181[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL P1S load filament_id: GFC00
+2025-01-25 19:13:10.297371[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL X1E load filament_id: GFC00
+2025-01-25 19:13:10.297575[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL P1S 0.2 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.297765[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL X1E 0.2 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.297966[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL P1S 0.8 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.298146[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL X1E 0.8 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.298351[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL P1S 0.6 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.298544[Thread 0x000079d158164240]:operator() 3489, Bambu PC @BBL X1E 0.6 nozzle load filament_id: GFC00
+2025-01-25 19:13:10.298758[Thread 0x000079d158164240]:operator() 3489, Generic PC @BBL P1S 0.2 nozzle load filament_id: GFC99
+2025-01-25 19:13:10.298941[Thread 0x000079d158164240]:operator() 3489, Generic PC @BBL X1E 0.2 nozzle load filament_id: GFC99
+2025-01-25 19:13:10.299153[Thread 0x000079d158164240]:operator() 3489, Generic PC @BBL P1S load filament_id: GFC99
+2025-01-25 19:13:10.299357[Thread 0x000079d158164240]:operator() 3489, Generic PC @BBL X1E load filament_id: GFC99
+2025-01-25 19:13:10.299566[Thread 0x000079d158164240]:operator() 3489, Generic ASA @BBL X1E 0.2 nozzle load filament_id: GFB98
+2025-01-25 19:13:10.299773[Thread 0x000079d158164240]:operator() 3489, Generic ASA @BBL X1E load filament_id: GFB98
+2025-01-25 19:13:10.299956[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL X1E load filament_id: GFB01
+2025-01-25 19:13:10.300150[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL X1E 0.2 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.300338[Thread 0x000079d158164240]:operator() 3489, Bambu ASA @BBL X1E 0.4 nozzle load filament_id: GFB01
+2025-01-25 19:13:10.300539[Thread 0x000079d158164240]:operator() 3489, PolyLite ASA @BBL X1C 0.2 nozzle load filament_id: GFB61
+2025-01-25 19:13:10.300716[Thread 0x000079d158164240]:operator() 3489, PolyLite ASA @BBL X1E load filament_id: GFB61
+2025-01-25 19:13:10.300921[Thread 0x000079d158164240]:operator() 3489, PolyLite ASA @BBL P1P 0.2 nozzle load filament_id: GFB61
+2025-01-25 19:13:10.301130[Thread 0x000079d158164240]:operator() 3489, Bambu Support G @BBL X1E load filament_id: GFS01
+2025-01-25 19:13:10.301341[Thread 0x000079d158164240]:operator() 3489, Bambu PA-CF @BBL X1E load filament_id: GFN03
+2025-01-25 19:13:10.301521[Thread 0x000079d158164240]:operator() 3489, PolyLite ABS @BBL X1E 0.2 nozzle load filament_id: GFB60
+2025-01-25 19:13:10.301724[Thread 0x000079d158164240]:operator() 3489, PolyLite ASA @BBL X1E 0.2 nozzle load filament_id: GFB61
+2025-01-25 19:13:10.323084[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1 Carbon 0.4 nozzle load filament_id: 
+2025-01-25 19:13:10.323580[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1 0.4 nozzle load filament_id: 
+2025-01-25 19:13:10.323907[Thread 0x000079d158164240]:operator() 3489, Bambu Lab P1P 0.4 nozzle load filament_id: 
+2025-01-25 19:13:10.324247[Thread 0x000079d158164240]:operator() 3489, Bambu Lab P1S 0.4 nozzle load filament_id: 
+2025-01-25 19:13:10.324735[Thread 0x000079d158164240]:operator() 3489, Bambu Lab A1 mini 0.4 nozzle load filament_id: 
+2025-01-25 19:13:10.325240[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1E 0.4 nozzle load filament_id: 
+2025-01-25 19:13:10.325733[Thread 0x000079d158164240]:operator() 3489, Bambu Lab A1 0.4 nozzle load filament_id: 
+2025-01-25 19:13:10.326164[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1 Carbon 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.326583[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1 Carbon 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.327158[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1 Carbon 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.327749[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.329217[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.329720[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.329995[Thread 0x000079d158164240]:operator() 3489, Bambu Lab P1P 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.331308[Thread 0x000079d158164240]:operator() 3489, Bambu Lab P1P 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.331625[Thread 0x000079d158164240]:operator() 3489, Bambu Lab P1P 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.331926[Thread 0x000079d158164240]:operator() 3489, Bambu Lab P1S 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.332184[Thread 0x000079d158164240]:operator() 3489, Bambu Lab P1S 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.332453[Thread 0x000079d158164240]:operator() 3489, Bambu Lab P1S 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.332654[Thread 0x000079d158164240]:operator() 3489, Bambu Lab A1 mini 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.332865[Thread 0x000079d158164240]:operator() 3489, Bambu Lab A1 mini 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.333077[Thread 0x000079d158164240]:operator() 3489, Bambu Lab A1 mini 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.333517[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1E 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.333975[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1E 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.334398[Thread 0x000079d158164240]:operator() 3489, Bambu Lab X1E 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.334611[Thread 0x000079d158164240]:operator() 3489, Bambu Lab A1 0.2 nozzle load filament_id: 
+2025-01-25 19:13:10.334830[Thread 0x000079d158164240]:operator() 3489, Bambu Lab A1 0.6 nozzle load filament_id: 
+2025-01-25 19:13:10.335111[Thread 0x000079d158164240]:operator() 3489, Bambu Lab A1 0.8 nozzle load filament_id: 
+2025-01-25 19:13:10.337277[Thread 0x000079d158164240]:load_user_presets, 522 entry and user is: 2126762001
+2025-01-25 19:13:10.337563[Thread 0x000079d158164240]:load_presets enter, load presets from "/home/chin/.config/BambuStudio/user/2126762001/process", current type process
+2025-01-25 19:13:10.337758[Thread 0x000079d158164240]:load_info load info from: /home/chin/.config/BambuStudio/user/2126762001/process/0.20mm Standard @BBL A1M - glueableCap.info and base_id: GP000
+2025-01-25 19:13:10.337955[Thread 0x000079d158164240]:load_presets load preset: 0.20mm Standard @BBL A1M - glueableCap and filament_id:  and base_id: GP000
+2025-01-25 19:13:10.338035[Thread 0x000079d158164240]:load_presets1237 load config successful and preset name is:0.20mm Standard @BBL A1M - glueableCap
+2025-01-25 19:13:10.338188[Thread 0x000079d158164240]:load_info load info from: /home/chin/.config/BambuStudio/user/2126762001/process/0.24mm Draft @BBL X1C - Copy.info and base_id: GP005
+2025-01-25 19:13:10.338466[Thread 0x000079d158164240]:load_presets load preset: 0.24mm Draft @BBL X1C - Copy and filament_id:  and base_id: GP005
+2025-01-25 19:13:10.338587[Thread 0x000079d158164240]:load_presets1237 load config successful and preset name is:0.24mm Draft @BBL X1C - Copy
+2025-01-25 19:13:10.338849[Thread 0x000079d158164240]:load_presets enter, load presets from "/home/chin/.config/BambuStudio/user/2126762001/filament", current type filament
+2025-01-25 19:13:10.339299[Thread 0x000079d158164240]:load_presets enter, load presets from "/home/chin/.config/BambuStudio/user/2126762001/machine", current type machine
+2025-01-25 19:13:10.339327[Thread 0x000079d158164240]:update_compatibility for all presets enter
+2025-01-25 19:13:10.339371[Thread 0x000079d158164240]:update_compatibility for all presets exit
+2025-01-25 19:13:10.339374[Thread 0x000079d158164240]:update_compatibility for all presets enter
+2025-01-25 19:13:10.339381[Thread 0x000079d158164240]:update_compatibility for all presets exit
+2025-01-25 19:13:10.340245[Thread 0x000079d158164240]:update_compatibility for all presets enter
+2025-01-25 19:13:10.341078[Thread 0x000079d158164240]:update_compatibility for all presets exit
+2025-01-25 19:13:10.341081[Thread 0x000079d158164240]:load_presets finished, returned substitutions 0
+2025-01-25 19:13:10.341086[Thread 0x000079d158164240]:create the main window
+2025-01-25 19:13:10.648735[Thread 0x000079d158164240]:select_technology: change the printer technology from  to  
+2025-01-25 19:13:10.655362[Thread 0x000079d158164240]:get_current_slice_result:m_current_plate 0, current_plate 0x4794a140
+2025-01-25 19:13:10.666344[Thread 0x000079d158164240]:set_current_panel: current_panel 0, new_panel 0x478de850
+2025-01-25 19:13:10.831853[Thread 0x000079d158164240]:operator()187 select :status wxString:Status
+2025-01-25 19:13:10.836166[Thread 0x000079d158164240]:ImageGrid::SetStatus: No printers.
+2025-01-25 19:13:10.837357[Thread 0x000079d158164240]:monitor: show_status = 4
+2025-01-25 19:13:10.839141[Thread 0x000079d158164240]:load_ams_list: 0 items
+2025-01-25 19:13:11.074403[Thread 0x000079d158164240]:reset: current result id 0 
+2025-01-25 19:13:11.074644[Thread 0x000079d158164240]:set_shape:current position {0,0}, new position {0, 0}
+2025-01-25 19:13:11.075481[Thread 0x000079d158164240]:reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+2025-01-25 19:13:11.075489[Thread 0x000079d158164240]:reset_size:after size: plate_width 256, plate_depth 256, plate_height 250
+2025-01-25 19:13:11.075496[Thread 0x000079d158164240]:set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+2025-01-25 19:13:11.075502[Thread 0x000079d158164240]:set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 250
+2025-01-25 19:13:11.075506[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2025-01-25 19:13:11.075632[Thread 0x000079d158164240]:set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+2025-01-25 19:13:11.075636[Thread 0x000079d158164240]:set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+2025-01-25 19:13:11.075640[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2025-01-25 19:13:11.075642[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2025-01-25 19:13:11.075644[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2025-01-25 19:13:11.080092[Thread 0x000079d158164240]:Unable to open the file/run/media/chin/7EBB-49F8/corne-lp-mechanical-keyboard-minimal-case-model_files/case.3mf
+2025-01-25 19:13:11.080175[Thread 0x000079d158164240]:Unable to open the file/run/media/chin/7EBB-49F8/corne-keyboard-case-model_files/Corne Case Hex.stl
+2025-01-25 19:13:11.080181[Thread 0x000079d158164240]:Unable to open the file/run/media/chin/7EBB-49F8/corne-case_v1_no_tenting_right.stl
+2025-01-25 19:13:11.080185[Thread 0x000079d158164240]:Unable to open the file/run/media/chin/7EBB-49F8/corne-case_v1_no_tenting_left.3mf
+2025-01-25 19:13:11.080188[Thread 0x000079d158164240]:Unable to open the file/run/media/chin/7EBB-49F8/corne-case_v1_no_tenting_left.stl
+2025-01-25 19:13:11.106322[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:13:11.106358[Thread 0x000079d158164240]:get_enable_slice_status: m_slice_select 1, enable= 1 
+2025-01-25 19:13:11.106361[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2025-01-25 19:13:11.106377[Thread 0x000079d158164240]:_BBS_Backup_Manager inital and interval = 60
+2025-01-25 19:13:11.106500[Thread 0x000079d158164240]:set_interval entry, and last interval is: 60
+2025-01-25 19:13:11.106502[Thread 0x000079d158164240]:set_interval exit, and new interval is: 10
+2025-01-25 19:13:11.123035[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:13:11.123997[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:13:11.124012[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:13:11.125780[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:13:11.125785[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:13:11.127132[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:13:11.127136[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:13:11.128238[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:13:11.128244[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:13:11.128317[Thread 0x000079d158164240]:reset: current result id 4294967295 
+2025-01-25 19:13:11.128377[Thread 0x000079d158164240]:load_print_as_fff 671: print is step done, posSlice 0, posSupportMaterial 0, psGCodeExport 0
+2025-01-25 19:13:11.129927[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:13:11.129931[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:13:11.131182[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:13:11.134158[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:13:11.134162[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:13:11.150780[Thread 0x000079d158164240]:main frame firstly shown
+2025-01-25 19:13:11.201280[Thread 0x000079d158164240]:finished the gui app init
+2025-01-25 19:13:11.268123[Thread 0x000079d158164240]:operator(): begin to add script message handler for wx.
+2025-01-25 19:13:11.489027[Thread 0x000079d158164240]:is_compatibility_version: m_networking_compatible=1
+2025-01-25 19:13:11.489080[Thread 0x000079d158164240]:ShowNetpluginTip: bValid=1, nShow=0
+2025-01-25 19:13:11.489225[Thread 0x000079d158164240]:is_compatibility_version: m_networking_compatible=1
+2025-01-25 19:13:11.489232[Thread 0x000079d158164240]:ShowNetpluginTip: bValid=1, nShow=0
+2025-01-25 19:13:11.518823[Thread 0x000079d158164240]:is_compatibility_version: m_networking_compatible=1
+2025-01-25 19:13:11.518905[Thread 0x000079d158164240]:ShowNetpluginTip: bValid=1, nShow=0
+2025-01-25 19:13:11.520092[Thread 0x000079d158164240]:07:13:11 PM: Warning: Error running JavaScript: Unsupported result type
+2025-01-25 19:13:11.520114[Thread 0x000079d158164240]:operator(): finished add script message handler for wx.
+2025-01-25 19:13:11.520123[Thread 0x000079d158164240]:operator(): begin to add script message handler for wx.
+2025-01-25 19:13:11.532426[Thread 0x000079d158164240]:is_compatibility_version: m_networking_compatible=1
+2025-01-25 19:13:11.532475[Thread 0x000079d158164240]:ShowNetpluginTip: bValid=1, nShow=0
+2025-01-25 19:13:11.603484[Thread 0x000079d158164240]:OnScriptMessage Create Timer
+2025-01-25 19:13:11.608594[Thread 0x000079d158164240]:set_selected_machine=
+2025-01-25 19:13:11.610754[Thread 0x000079d158164240]:load_ams_list: 0 items
+2025-01-25 19:13:11.611914[Thread 0x000079d158164240]:ImageGrid::SetStatus: Please confirm if the printer is connected.
+2025-01-25 19:13:11.628184[Thread 0x000079d158164240]:monitor: show_status = 4
+2025-01-25 19:13:11.636175[Thread 0x000079d158164240]:load_ams_list: 0 items
+2025-01-25 19:13:11.654118[Thread 0x000079d158164240]:update_print_volume_state, print_volume {0, 0, 0} to {256, 256, 250}, got 0 printable istances
+2025-01-25 19:13:11.654290[Thread 0x000079d158164240]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2025-01-25 19:13:11.654311[Thread 0x000079d158164240]:update_print_volume_state, print_volume {0, 0, 0} to {256, 256, 250}, got 0 printable istances
+2025-01-25 19:13:11.654321[Thread 0x000079d158164240]:get_current_slice_result:m_current_plate 0, current_plate 0x4794a140
+2025-01-25 19:13:11.656528[Thread 0x000079d158164240]:apply, Line 1026: enter
+2025-01-25 19:13:11.657441[Thread 0x000079d158164240]:apply, got print_diff 93, object_diff 13, region_diff 26, set status to APPLY_STATUS_CHANGED
+2025-01-25 19:13:11.657585[Thread 0x000079d158164240]:apply 1140: found full_config_diff changed.
+2025-01-25 19:13:11.657818[Thread 0x000079d158164240]:apply 1645: finished,  this 0x47952240, m_modified_count 1, apply_status 1, m_support_used 0
+2025-01-25 19:13:11.657904[Thread 0x000079d158164240]:update_background_process: background process apply result=1
+2025-01-25 19:13:11.657935[Thread 0x000079d158164240]:update_background_process, Line 5279: was_running = 0, running 0, invalidated=1, return_state=0, internal_cancel=0
+2025-01-25 19:13:11.657941[Thread 0x000079d158164240]:update_background_process, Line 5309: background data valid, return_state=0
+2025-01-25 19:13:11.657944[Thread 0x000079d158164240]:update_background_process, Line 5352: exit, return_state=0
+2025-01-25 19:13:11.657949[Thread 0x000079d158164240]:restart_background_process, Line 5390: not started
+2025-01-25 19:13:11.659101[Thread 0x000079d158164240]:Begin SendDesignStaffpick: 1737857591659
+2025-01-25 19:13:12.838918[Thread 0x000079d03cffa6c0]:get_mw_user_preference failed 
+2025-01-25 19:13:12.848635[Thread 0x000079d158164240]:07:13:12 PM: Warning: Error running JavaScript: Unsupported result type
+2025-01-25 19:13:12.848678[Thread 0x000079d158164240]:operator(): finished add script message handler for wx.
+2025-01-25 19:13:12.848683[Thread 0x000079d158164240]:operator(): begin to add script message handler for wx.
+2025-01-25 19:13:12.851821[Thread 0x000079d158164240]:Begin SendDesignStaffpick: 1192
+2025-01-25 19:13:12.857737[Thread 0x000079d158164240]:07:13:12 PM: Warning: Error running JavaScript: Unsupported result type
+2025-01-25 19:13:12.857855[Thread 0x000079d158164240]:operator(): finished add script message handler for wx.
+2025-01-25 19:13:12.857861[Thread 0x000079d158164240]:operator(): begin to add script message handler for wx.
+2025-01-25 19:13:12.861888[Thread 0x000079d158164240]:07:13:12 PM: Warning: Error running JavaScript: Unsupported result type
+2025-01-25 19:13:12.861915[Thread 0x000079d158164240]:operator(): finished add script message handler for wx.
+2025-01-25 19:13:12.861917[Thread 0x000079d158164240]:operator(): begin to add script message handler for wx.
+2025-01-25 19:13:12.866295[Thread 0x000079d158164240]:07:13:12 PM: Warning: Error running JavaScript: Unsupported result type
+2025-01-25 19:13:12.866342[Thread 0x000079d158164240]:operator(): finished add script message handler for wx.
+2025-01-25 19:13:12.866345[Thread 0x000079d158164240]:operator(): begin to add script message handler for wx.
+2025-01-25 19:13:12.867709[Thread 0x000079d158164240]:07:13:12 PM: Warning: Error running JavaScript: Unsupported result type
+2025-01-25 19:13:12.867716[Thread 0x000079d158164240]:operator(): finished add script message handler for wx.
+2025-01-25 19:13:12.867739[Thread 0x000079d158164240]:start_sync_service...
+2025-01-25 19:13:12.867861[Thread 0x000079d158164240]:post_init sync_user_preset: true
+2025-01-25 19:13:12.867867[Thread 0x000079d158164240]:post_init, begin load_gl_resources
+2025-01-25 19:13:12.882619[Thread 0x000079d158164240]:select_view_3D3329select view3D
+2025-01-25 19:13:12.882641[Thread 0x000079d158164240]:set_current_panel: current_panel 0, new_panel 0x478de850
+2025-01-25 19:13:12.882656[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:13:12.882660[Thread 0x000079d158164240]:get_enable_slice_status: m_slice_select 1, enable= 1 
+2025-01-25 19:13:12.882663[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 1, can_print 1, enable_slice 1, enable_print 0 
+2025-01-25 19:13:12.885643[Thread 0x000079d158164240]:set_current_panel: successfully, exit
+2025-01-25 19:13:12.887172[Thread 0x000079d158164240]:post_init, start to init opengl
+2025-01-25 19:13:12.889448[Thread 0x000079d158164240]:Found Framebuffer Type ARB.
+2025-01-25 19:13:12.889463[Thread 0x000079d158164240]:got opengl version 4.6 (Compatibility Profile) Mesa 24.3.3-arch1.2, glsl version 4.60, vendor AMD
+2025-01-25 19:13:12.941939[Thread 0x000079d158164240]:post_init, finished init opengl
+2025-01-25 19:13:12.941990[Thread 0x000079d158164240]:init enter
+2025-01-25 19:13:12.942048[Thread 0x000079d158164240]:init: before m_layers_editing init
+2025-01-25 19:13:12.942090[Thread 0x000079d158164240]:init: before gizmo init
+2025-01-25 19:13:12.955341[Thread 0x000079d158164240]:init_fonts_names start
+2025-01-25 19:13:12.955522[Thread 0x000079d158164240]:init_fonts_names end
+2025-01-25 19:13:12.955691[Thread 0x000079d158164240]:init: before _init_toolbars
+2025-01-25 19:13:12.968512[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.968540[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.968950[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.968956[Thread 0x000079d021ffb6c0]:Cannot find cff table
+2025-01-25 19:13:12.969028[Thread 0x000079d158164240]:_init_assemble_view_toolbar: enter,  m_assemble_view_toolbar.is_enabled=true
+2025-01-25 19:13:12.969312[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.969316[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.969589[Thread 0x000079d158164240]:_init_assemble_view_toolbar: Finished Successfully
+2025-01-25 19:13:12.969974[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.969979[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.970808[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.970837[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.972269[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.972275[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.972368[Thread 0x000079d158164240]:init: finish _init_toolbars
+2025-01-25 19:13:12.972407[Thread 0x000079d158164240]:init: finish m_selection
+2025-01-25 19:13:12.972409[Thread 0x000079d158164240]:post_init, finished init canvas3D
+2025-01-25 19:13:12.975516[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.975523[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.975921[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.975927[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.976312[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.976315[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.976709[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.976715[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.982960[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:12.982989[Thread 0x000079d021ffb6c0]:Cannot find cff table
+2025-01-25 19:13:13.019209[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019242[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019244[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019246[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019247[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019249[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019250[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019251[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019253[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019254[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.019264[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028420[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028451[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028453[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028454[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028455[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028457[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028458[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028460[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028461[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028462[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.028472[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033760[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033777[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033778[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033779[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033780[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033782[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033783[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033784[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033786[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033787[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.033794[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037933[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037942[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037943[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037945[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037946[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037947[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037948[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037950[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037951[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037952[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.037956[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041388[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041398[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041399[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041401[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041402[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041403[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041404[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041405[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041406[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041408[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.041413[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.052209[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.052225[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089427[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089451[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089453[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089454[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089455[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089456[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089458[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089459[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089460[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089461[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.089469[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093787[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093803[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093844[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093845[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093846[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093847[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093849[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093850[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093851[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093852[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.093859[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097585[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097592[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097594[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097595[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097596[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097597[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097599[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097600[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097601[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097602[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.097605[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101105[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101114[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101115[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101117[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101118[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101119[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101120[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101122[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101123[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101124[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.101128[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104613[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104622[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104623[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104624[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104625[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104626[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104628[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104629[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104630[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104631[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.104636[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.117853[Thread 0x000079d03cffa6c0]:get_mw_user_preference failed 
+2025-01-25 19:13:13.177362[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.177385[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.177387[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.177388[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.177390[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.177398[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.184370[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.184393[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.184395[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.184396[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.184397[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.184406[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.190492[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.190516[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.190518[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.190520[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.190521[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.190530[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.196486[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.196503[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.196505[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.196506[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.196507[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.196516[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.202085[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.202101[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.202102[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.202103[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.202104[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.202110[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.228063[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.228082[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.229487[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.229493[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.230171[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.230174[Thread 0x000079d021ffb6c0]:Cannot find cff table
+2025-01-25 19:13:13.230183[Thread 0x000079d0237fe6c0]:get_setting_list2 error: network_agent=0x44ce07c0, ret=-9, bundle_version=1.10.0.32
+2025-01-25 19:13:13.230739[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.230745[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.231121[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.231123[Thread 0x000079d021ffb6c0]:Cannot find cff table
+2025-01-25 19:13:13.231718[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.231740[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.232332[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.232338[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.232936[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.232941[Thread 0x000079d021ffb6c0]:initialization for CFF / Type2 fonts (OTF)
+2025-01-25 19:13:13.787086[Thread 0x000079d158164240]:post_init, finished init imgui frame
+2025-01-25 19:13:13.787107[Thread 0x000079d158164240]:post_init, start to render a first frame for test
+2025-01-25 19:13:14.017890[Thread 0x000079d158164240]:post_init, finished rendering a first frame for test
+2025-01-25 19:13:14.021588[Thread 0x000079d158164240]:post_init, end load_gl_resources
+2025-01-25 19:13:14.022257[Thread 0x000079d158164240]:finished post_init
+2025-01-25 19:13:14.362968[Thread 0x000079d158164240]:select_view_3D3329select view3D
+2025-01-25 19:13:14.363002[Thread 0x000079d158164240]:set_current_panel: current_panel 0x478de850, new_panel 0x478de850
+2025-01-25 19:13:14.363021[Thread 0x000079d158164240]:set_current_panel: the same panel, exit
+2025-01-25 19:13:14.365247[Thread 0x000079d158164240]:Undo / Redo snapshot taken: Reset Project, Undo / Redo stack memory: 0MB Resident memory: 637MB; Shared memory: 314MB; Private memory: 323MB; Peak memory usage: 640MB
+2025-01-25 19:13:14.365319[Thread 0x000079d158164240]:reset4925 call set_project_filename: empty
+2025-01-25 19:13:14.365322[Thread 0x000079d158164240]:reset: current result id 4294967295 
+2025-01-25 19:13:14.365331[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2025-01-25 19:13:14.365335[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2025-01-25 19:13:14.367364[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2025-01-25 19:13:14.367430[Thread 0x000079d158164240]:set_pos_and_size: plate_id 1, before, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+2025-01-25 19:13:14.367439[Thread 0x000079d158164240]:set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+2025-01-25 19:13:14.367444[Thread 0x000079d158164240]:get_current_slice_result:m_current_plate 0, current_plate 0x4794a140
+2025-01-25 19:13:14.367447[Thread 0x000079d158164240]:stop, enter
+2025-01-25 19:13:14.370037[Thread 0x000079d158164240]:object_list_changed: can_slice 0, model_fits= 1, export_in_progress 0, has_printable_instances 0 
+2025-01-25 19:13:14.370044[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:13:14.370047[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2025-01-25 19:13:14.370090[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:13:14.371155[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:13:14.371160[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:13:14.373308[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:13:14.373313[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:13:14.374384[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:13:14.374393[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:13:14.375097[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:13:14.375103[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:13:14.375181[Thread 0x000079d158164240]:reset: current result id 4294967295 
+2025-01-25 19:13:14.377410[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:13:14.377414[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:13:14.378357[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:13:14.381122[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:13:14.381127[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:13:14.381206[Thread 0x000079d158164240]:Undo / Redo snapshot taken: New Project, Undo / Redo stack memory: 0MB Resident memory: 637MB; Shared memory: 314MB; Private memory: 323MB; Peak memory usage: 640MB
+2025-01-25 19:13:14.381268[Thread 0x000079d158164240]:model 0x7ffc641a14d0, id 47, backup_path empty, set to /tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47
+2025-01-25 19:13:14.381281[Thread 0x000079d158164240]:create /3D/Objects in "/tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47"
+2025-01-25 19:13:14.381335[Thread 0x000079d158164240]:create /Metadata in "/tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47"
+2025-01-25 19:13:14.381344[Thread 0x000079d158164240]:create /lock.txt in "/tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47"
+2025-01-25 19:13:14.381362[Thread 0x000079d158164240]:set_backup_path, model 0x4782df18, id 7, set backup to /tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47
+2025-01-25 19:13:14.381381[Thread 0x000079d158164240]:create missing sub_path/tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47//Auxiliaries
+2025-01-25 19:13:14.381625[Thread 0x000079d158164240]:select_view_3D3329select view3D
+2025-01-25 19:13:14.381629[Thread 0x000079d158164240]:set_current_panel: current_panel 0x478de850, new_panel 0x478de850
+2025-01-25 19:13:14.381633[Thread 0x000079d158164240]:set_current_panel: the same panel, exit
+2025-01-25 19:13:14.382807[Thread 0x000079d158164240]:select_view3254select view3D
+2025-01-25 19:13:14.383338[Thread 0x000079d03cffa6c0]:[BBL Updater]: sync_config Syncing configuration enter
+2025-01-25 19:13:14.383351[Thread 0x000079d03cffa6c0]:[BBL Updater]: sync_config get preferred setting version for app version 01.10.01.50, http_url: https://api.bambulab.com/v1/iot-service/api/slicer/resource
+2025-01-25 19:13:14.384993[Thread 0x000079d03cffa6c0]:[BBL Updater]: sync_resources get preferred setting version for app version BambuStudio, url: https://api.bambulab.com/v1/iot-service/api/slicer/resource, current_version_str 1.10.0.32, check_patch 0
+2025-01-25 19:13:14.385005[Thread 0x000079d03cffa6c0]:[BBL Updater]: sync_resources request_url: https://api.bambulab.com/v1/iot-service/api/slicer/resource?slicer/settings/bbl=01.10.00.00
+2025-01-25 19:13:14.387362[Thread 0x000079d158164240]:is_compatibility_version: m_networking_compatible=1
+2025-01-25 19:13:14.387368[Thread 0x000079d158164240]:ShowNetpluginTip: bValid=1, nShow=0
+2025-01-25 19:13:14.389995[Thread 0x000079d00a5fc6c0]:hms: download url = https://e.bambulab.com/query.php?lang=en&v=202501171630
+2025-01-25 19:13:14.831200[Thread 0x000079d158164240]:load_ams_list: 0 items
+2025-01-25 19:13:14.831525[Thread 0x000079d158164240]:update_compatibility for all presets enter
+2025-01-25 19:13:14.832296[Thread 0x000079d158164240]:update_compatibility for all presets exit
+2025-01-25 19:13:14.836036[Thread 0x000079d03cffa6c0]:[BBL Updater]: request_resources, body={"message":"success","code":null,"error":null,"software":null,"guide":null,"resources":[{"type":"slicer/settings/bbl","version":"01.10.00.32","description":"The updates for this preset package are as follows:\n1. Fix the issue where the long retraction feature of A1 and A1 mini did not work properly.","url":"https://public-cdn.bblmw.com/upgrade/studio/settings/BBL/01.10.00.32/434cbdad66/01.10.00.32.zip","force_update":false}]}
+2025-01-25 19:13:14.836060[Thread 0x000079d03cffa6c0]:[BBL Updater]: get type slicer/settings/bbl, version 01.10.00.32, url https://public-cdn.bblmw.com/upgrade/studio/settings/BBL/01.10.00.32/434cbdad66/01.10.00.32.zip, force_update false
+2025-01-25 19:13:14.836069[Thread 0x000079d03cffa6c0]:[BBL Updater]: online version=1.10.0.32, current_version=1.10.0.32, no need to download
+2025-01-25 19:13:14.836091[Thread 0x000079d158164240]:preset_folder: set to empty
+2025-01-25 19:13:14.836219[Thread 0x000079d03cffa6c0]:[BBL Updater]: sync_resources get preferred setting version for app version BambuStudio, url: https://api.bambulab.com/v1/iot-service/api/slicer/resource, current_version_str 01.10.01.01, check_patch 1
+2025-01-25 19:13:14.836235[Thread 0x000079d158164240]:load_user_presets, 522 entry and user is: default
+2025-01-25 19:13:14.836238[Thread 0x000079d03cffa6c0]:[BBL Updater]: sync_resources request_url: https://api.bambulab.com/v1/iot-service/api/slicer/resource?slicer/plugins/cloud=01.10.01.00
+2025-01-25 19:13:14.836330[Thread 0x000079d158164240]:load_presets enter, load presets from "/home/chin/.config/BambuStudio/user/default/process", current type process
+2025-01-25 19:13:14.836501[Thread 0x000079d158164240]:load_presets enter, load presets from "/home/chin/.config/BambuStudio/user/default/filament", current type filament
+2025-01-25 19:13:14.836832[Thread 0x000079d158164240]:load_presets enter, load presets from "/home/chin/.config/BambuStudio/user/default/machine", current type machine
+2025-01-25 19:13:14.836871[Thread 0x000079d158164240]:update_compatibility for all presets enter
+2025-01-25 19:13:14.837565[Thread 0x000079d158164240]:update_compatibility for all presets exit
+2025-01-25 19:13:14.860091[Thread 0x000079d158164240]:set_selected_machine=
+2025-01-25 19:13:14.860608[Thread 0x000079d158164240]:load_ams_list: 0 items
+2025-01-25 19:13:14.860891[Thread 0x000079d158164240]:set_selected_machine=
+2025-01-25 19:13:14.860969[Thread 0x000079d158164240]:load_ams_list: 0 items
+2025-01-25 19:13:14.861207[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:13:14.861213[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2025-01-25 19:13:14.861217[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:13:14.861219[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2025-01-25 19:13:14.861221[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:13:14.861223[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2025-01-25 19:13:14.861272[Thread 0x000079d158164240]:connect_server error: network_agent=0x44ce07c0, ret=-2
+2025-01-25 19:13:15.291585[Thread 0x000079d158164240]:set_selected_machine=
+2025-01-25 19:13:15.303662[Thread 0x000079d00a5fc6c0]:hms: download url = https://e.bambulab.com/hms/GetActionImage.php?v=202501171545
+2025-01-25 19:13:15.316169[Thread 0x000079d03cffa6c0]:[BBL Updater]: request_resources, body={"message":"success","code":null,"error":null,"software":null,"guide":null,"resources":[{"type":"slicer/plugins/cloud","version":"01.10.01.01","description":"","url":"https://public-cdn.bblmw.com/upgrade/studio/plugins/01.10.01.01/8f52eddd78/linux_01.10.01.01.zip","force_update":false}]}
+2025-01-25 19:13:15.316224[Thread 0x000079d03cffa6c0]:[BBL Updater]: get type slicer/plugins/cloud, version 01.10.01.01, url https://public-cdn.bblmw.com/upgrade/studio/plugins/01.10.01.01/8f52eddd78/linux_01.10.01.01.zip, force_update false
+2025-01-25 19:13:15.316245[Thread 0x000079d03cffa6c0]:[BBL Updater]: online version=1.10.1.1, current_version=1.10.1.1, no need to download
+2025-01-25 19:13:15.316589[Thread 0x000079d03cffa6c0]:[BBL Updater]: sync_resources get preferred setting version for app version BambuStudio, url: https://api.bambulab.com/v1/iot-service/api/slicer/resource, current_version_str 01.10.00.01, check_patch 0
+2025-01-25 19:13:15.316620[Thread 0x000079d03cffa6c0]:[BBL Updater]: sync_resources request_url: https://api.bambulab.com/v1/iot-service/api/slicer/resource?slicer/printer/bbl=01.10.00.00
+2025-01-25 19:13:15.340072[Thread 0x000079d158164240]:update_print_volume_state, print_volume {0, 0, 0} to {256, 256, 250}, got 0 printable istances
+2025-01-25 19:13:15.340106[Thread 0x000079d158164240]:update_background_process: enter, force_validation=0 postpone_error_messages=0, switch_print=1, was_running=0
+2025-01-25 19:13:15.340117[Thread 0x000079d158164240]:update_print_volume_state, print_volume {0, 0, 0} to {256, 256, 250}, got 0 printable istances
+2025-01-25 19:13:15.340127[Thread 0x000079d158164240]:get_current_slice_result:m_current_plate 0, current_plate 0x4794a140
+2025-01-25 19:13:15.341049[Thread 0x000079d158164240]:apply, Line 1026: enter
+2025-01-25 19:13:15.341215[Thread 0x000079d158164240]:apply, got print_diff 93, object_diff 13, region_diff 26, set status to APPLY_STATUS_CHANGED
+2025-01-25 19:13:15.341250[Thread 0x000079d158164240]:apply 1140: found full_config_diff changed.
+2025-01-25 19:13:15.341335[Thread 0x000079d158164240]:apply 1645: finished,  this 0x47952240, m_modified_count 1, apply_status 1, m_support_used 0
+2025-01-25 19:13:15.341390[Thread 0x000079d158164240]:update_background_process: background process apply result=1
+2025-01-25 19:13:15.341395[Thread 0x000079d158164240]:update_background_process, Line 5279: was_running = 0, running 0, invalidated=1, return_state=0, internal_cancel=0
+2025-01-25 19:13:15.341398[Thread 0x000079d158164240]:update_background_process, Line 5309: background data valid, return_state=0
+2025-01-25 19:13:15.341400[Thread 0x000079d158164240]:update_background_process, Line 5352: exit, return_state=0
+2025-01-25 19:13:15.341402[Thread 0x000079d158164240]:restart_background_process, Line 5390: not started
+2025-01-25 19:13:15.599786[Thread 0x000079d03cffa6c0]:[BBL Updater]: request_resources, body={"message":"success","code":null,"error":null,"software":null,"guide":null,"resources":[]}
+2025-01-25 19:13:15.599829[Thread 0x000079d03cffa6c0]:[BBL Updater]Vendor slicer/printer/bbl can not get setting versions online
+2025-01-25 19:13:15.630859[Thread 0x000079d00a5fc6c0]:HMSQuery: HMS info is the latest version
+2025-01-25 19:13:20.411311[Thread 0x000079d158164240]:login url = https://bambulab.com/en-US/sign-in
+2025-01-25 19:13:20.421973[Thread 0x000079d158164240]:operator(): begin to add script message handler for wx.
+2025-01-25 19:13:20.568036[Thread 0x000079d158164240]:07:13:20 PM: Warning: Error running JavaScript: Unsupported result type
+2025-01-25 19:13:20.568068[Thread 0x000079d158164240]:operator(): finished add script message handler for wx.
+2025-01-25 19:14:03.795500[Thread 0x000079d158164240]:operator(): received wxEVT_CLOSE_WINDOW, trigger save for window_mainframe
+2025-01-25 19:14:03.796388[Thread 0x000079d158164240]:operator(): mainframe received close_widow event
+2025-01-25 19:14:03.796563[Thread 0x000079d158164240]:set_backup_path, model 0x4782df18, id 7, remove previous backup /tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47
+2025-01-25 19:14:03.796578[Thread 0x000079d158164240]:remove_backup /tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47, true
+2025-01-25 19:14:03.796609[Thread 0x000079d158164240]:set_backup_path, model 0x4782df18, id 7, set backup to 
+2025-01-25 19:14:03.796685[Thread 0x000079d079ff76c0]:process_task{ type:RemoveBackup, id:7, path:/tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47, object:0, extra:1}
+2025-01-25 19:14:03.796756[Thread 0x000079d158164240]:Undo / Redo snapshot taken: Reset Project, Undo / Redo stack memory: 0MB Resident memory: 656MB; Shared memory: 327MB; Private memory: 329MB; Peak memory usage: 660MB
+2025-01-25 19:14:03.796856[Thread 0x000079d158164240]:reset4925 call set_project_filename: empty
+2025-01-25 19:14:03.796858[Thread 0x000079d158164240]:reset: current result id 4294967295 
+2025-01-25 19:14:03.796866[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2025-01-25 19:14:03.796869[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2025-01-25 19:14:03.796939[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2025-01-25 19:14:03.796995[Thread 0x000079d158164240]:set_pos_and_size: plate_id 1, before, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+2025-01-25 19:14:03.797004[Thread 0x000079d158164240]:set_pos_and_size: with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 250
+2025-01-25 19:14:03.797009[Thread 0x000079d158164240]:get_current_slice_result:m_current_plate 0, current_plate 0x4794a140
+2025-01-25 19:14:03.797011[Thread 0x000079d158164240]:stop, enter
+2025-01-25 19:14:03.799014[Thread 0x000079d158164240]:object_list_changed: can_slice 0, model_fits= 1, export_in_progress 0, has_printable_instances 0 
+2025-01-25 19:14:03.799021[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:14:03.799024[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2025-01-25 19:14:03.799040[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:14:03.800029[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:14:03.800034[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:14:03.802723[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:14:03.802728[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:14:03.803780[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:14:03.803784[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:14:03.804472[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:14:03.804478[Thread 0x000079d158164240]:load_current_preset: enter
+2025-01-25 19:14:03.804552[Thread 0x000079d158164240]:reset: current result id 4294967295 
+2025-01-25 19:14:03.807403[Thread 0x000079d158164240]:put_other_changes
+2025-01-25 19:14:03.807423[Thread 0x000079d158164240]:update_from_presetsproject file name is empty
+2025-01-25 19:14:03.808770[Thread 0x000079d158164240]:load_current_preset: exit
+2025-01-25 19:14:03.811356[Thread 0x000079d158164240]:shutdownMainFrame::shutdown enter
+2025-01-25 19:14:03.812456[Thread 0x000079d158164240]:GUI_App::shutdown enter
+2025-01-25 19:14:03.812511[Thread 0x000079d158164240]:shutdown: destroy login dialog
+2025-01-25 19:14:03.813409[Thread 0x000079d158164240]:GUI_App::shutdown exit
+2025-01-25 19:14:03.813413[Thread 0x000079d158164240]:shutdownMainFrame::shutdown exit
+2025-01-25 19:14:03.813416[Thread 0x000079d158164240]:operator(): mainframe finished process close_widow event
+2025-01-25 19:14:03.814893[Thread 0x000079d158164240]:process_ui_task: remove all of backup path /tmp/bamboo_model/Sat_Jan_25/19_13_14#77413#47
+2025-01-25 19:14:03.815165[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:14:03.815179[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2025-01-25 19:14:03.815184[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:14:03.815187[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2025-01-25 19:14:03.815191[Thread 0x000079d158164240]:get_enable_print_status: m_print_select 1, enable= 0 
+2025-01-25 19:14:03.815193[Thread 0x000079d158164240]:update_slice_print_status m_slice_select 1: can_slice= 0, can_print 1, enable_slice 0, enable_print 0 
+2025-01-25 19:14:03.893890[Thread 0x000079d158164240]:~PrinterWebView Start
+2025-01-25 19:14:03.893907[Thread 0x000079d158164240]:~PrinterWebView End
+2025-01-25 19:14:03.932985[Thread 0x000079d158164240]:stop, enter
+2025-01-25 19:14:03.933027[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2025-01-25 19:14:03.933038[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+2025-01-25 19:14:03.933062[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2025-01-25 19:14:03.933087[Thread 0x000079d158164240]:update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+2025-01-25 19:14:03.949676[Thread 0x000079d158164240]:reset: current result id 0 
+2025-01-25 19:14:03.949908[Thread 0x000079d158164240]:reset: current result id 4294967295 
+2025-01-25 19:14:03.949965[Thread 0x000079d158164240]:reset: current result id 0 
+2025-01-25 19:14:03.975460[Thread 0x000079d158164240]:~NetworkAgent, this 0x44b89960, network_agent=0x44ce07c0, destroy_agent_ptr=1, ret 0
+2025-01-25 19:14:03.975553[Thread 0x000079d158164240]:~GUI_App: enter
+2025-01-25 19:14:03.975560[Thread 0x000079d158164240]:~GUI_App: destroy app_config
+2025-01-25 19:14:03.975621[Thread 0x000079d158164240]:~GUI_App: destroy preset_bundle
+2025-01-25 19:14:03.987144[Thread 0x000079d158164240]:~GUI_App: destroy preset updater
+2025-01-25 19:14:03.987181[Thread 0x000079d158164240]:~GUI_App: exit

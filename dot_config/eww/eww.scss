@@ -1,0 +1,67 @@
+* {
+  all: unset; //Unsets everything so you can style everything from scratch
+}
+
+//Global Styles
+.bar {
+  background-color: rgba(29, 51, 55, 0.6);
+  color: #ebebeb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+// Styles on classes (see eww.yuck for more information)
+
+.sidestuff slider {
+  all: unset;
+  color: #ffd5cd;
+}
+.metric scale trough {
+  all: unset;
+  background-color: #4e4e4e;
+  border-radius: 2rem;
+  min-height: 50px;
+  min-width: 5px;
+}
+.metric scale trough highlight {
+  all: unset;
+  background-color: #D35D6E;
+  color: #000000;
+  border-radius: 10px;
+}
+.label-ram {
+  font-size: large;
+}
+.search {
+  font-size: 22px;
+  padding: 6px;
+  border-radius: 4px;
+  transition-duration: 100ms;
+}
+.search:hover {
+    background-color: #2d4f56;
+    color: #ebebeb;
+}
+.search button {
+  margin-right: 10px;
+  background-color: #ab1e7d;
+}
+.taskbar {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.taskbar button{
+  background-color: #2d4f56;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 0 6px;
+  transition-duration: 100ms;
+}
+.taskbar button:hover {
+  background-color: #688b89;
+}
+.volume-popup {
+  background-color: #1d3337;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}

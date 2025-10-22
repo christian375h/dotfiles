@@ -1,0 +1,108 @@
+(defwidget bar []
+  (centerbox :orientation "h"
+    (search)
+    (taskbar :windows windows)
+    (sidestuff)))
+
+(defpoll windows :interval "1s" "bash ~/.config/eww/scripts/hypr_windows.sh")
+
+(defwidget taskbar [windows]
+  (box :class "taskbar" :halign "center"
+    (for win in windows
+      (button
+        :onclick "hyprctl dispatch focuswindow ${win.address}"
+        :tooltip {win.title}
+        (image 
+        :path {win.icon}
+        :image-height 30)))))
+
+(defwidget sidestuff []
+  (box :class "sidestuff" :orientation "h" :space-evenly false :halign "end"
+    (systray :icon-size 15
+             :space-evenly true)
+    (volume-module)
+    time))
+
+(defwidget search []
+  (button 
+    :width 40
+    :height 40
+    :halign "start"
+    :class "search"
+    :onclick 'fuzzel &'
+    " "))
+
+(defwidget music []
+  (box :class "music"
+       :orientation "h"
+       :space-evenly false
+       :halign "center"
+    {music != "" ? "󰝚   ${music}" : ""}))
+
+(defwidget metric [label value onchange]
+  (box :orientation "v"
+       :class "metric"
+       :space-evenly false
+    (scale
+           :min 0
+           :max 100
+           :orientation "v"
+           :flipped true
+           :active {onchange != ""}
+           :value value
+           :onchange onchange)
+    (box :class "label" label)))
+
+(deflisten music :initial ""
+  "playerctl --follow metadata --format '{{ artist }} - {{ title }}' || true")
+
+(defpoll time :interval "1s"
+  "date '+%I:%M %b %d, %Y'")
+
+(defwindow bar 
+  :monitor '[1,0]'
+  :windowtype "dock"
+  :exclusive true
+  :geometry (geometry :x "0%"
+                      :y "4px"
+                      :width "60%"
+                      :height "50px"
+                      :anchor "bottom center")
+  :reserve (struts :side "top" :distance "4%")
+  (bar))
+
+(defpoll volume :interval "0.3s"
+  "scripts/getvol.sh")
+
+(defvar volume_popup_visible false)
+
+(defwidget volume-module []
+  (eventbox
+    :onhover "eww update volume_popup_visible=true"
+    :onhoverlost "eww update volume_popup_visible=false"
+    (button :class "label" :halign "center" :onclick 'pactl set-sink-mute @DEFAULT_SINK@ toggle' "  ")))
+
+(defwidget volume-slider-popup []
+  (eventbox 
+    :onhover "eww update volume_popup_visible=true"
+    :onhoverlost "eww update volume_popup_visible=false"
+    (box :class "volume-popup metric" :orientation "v" :space-evenly true :visible volume_popup_visible
+      (label :class "volume-percentage" :text "${volume}%" :halign "center")
+      (scale
+        :orientation "v"
+        :flipped true
+        :min 0
+        :max 150
+        :value volume
+        :onchange "pactl set-sink-volume 0 $(printf %.0f {})%"))))
+
+(defwindow volume-popup-window
+  :monitor '[1,0]'
+  :windowtype "toolbar"
+  :geometry (geometry :x "23.6%" 
+                      :width "60px"
+                      :anchor "bottom right")
+  :stacking "fg"
+  :layer "top"
+  (volume-slider-popup))
+
