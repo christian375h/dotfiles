@@ -6,10 +6,10 @@
 
   "control-center-width": 380,
   "control-center-height": 860, 
-  "control-center-margin-top": 6,
-  "control-center-margin-bottom": 0,
-  "control-center-margin-right": 6,
-  "control-center-margin-left": 0,
+  "control-center-margin-top": 2,
+  "control-center-margin-bottom": 2,
+  "control-center-margin-right": 2,
+  "control-center-margin-left": 2,
 
   "notification-window-width": 400,
   "notification-icon-size": 48,
@@ -41,9 +41,9 @@
     }
   },
   "widgets": [
-    "label",
     "buttons-grid",
     "volume",
+    "backlight",
     "mpris",
     "title",
     "dnd",
@@ -51,6 +51,9 @@
     "menubar"
   ],
   "widget-config": {
+    "notifications": {
+      "vexpand": true
+    },
     "title": {
       "text": "Notifications",
       "clear-all-button": true,
@@ -69,32 +72,34 @@
     },
     "volume": {
       "enabled": true,
-      "label": "  󰕾  ",
+      "label": "󰕾 ",
       "show-per-app": false 
     },    
+    "backlight": {
+      "label": "󰃠 ",
+      "device": "nvidia_wmi_ec_backlight",
+      "min": 10
+    },
     "buttons-grid": {
+      "buttons-per-row": 3,
       "actions": [
         {
-          "label": " ",
-          "command": "amixer set Master toggle"
+          "label": "\uf1eb ",
+          "command": "swaync-client --toggle-panel && iwmenu -l fuzzel"
         },
         {
-          "label": " ",
-          "command": "iwmenu -l fuzzel && swaync-client -cp"
+          "label": " \udb80\udcaf ",
+          "command": "swaync-client --toggle-panel && bzmenu -l fuzzel"
         },
         {
-          "label": " 󰂯 ",
-          "command": "bzmenu -l fuzzel &"
-        },
-        {
-          "label": "󱡫",
-          "command": "~/scripts/audio_switcher.sh"
+          "label": " \udb80\udecb ",
+          "command": "swaync-client --toggle-panel && pwmenu -l fuzzel"
         }
       ]
     },
     "menubar": {
       "menu#power-buttons": {
-        "label": " ", 
+        "label": "", 
         "position": "right",
         "actions": [ 
           {
