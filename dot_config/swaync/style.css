@@ -613,7 +613,7 @@ blankwindow {
 }
 
 .widget-buttons-grid flowbox > flowboxchild > button {
-  padding: 0;
+  padding: 10px 0 10px 0;
   margin: 0;
   box-shadow: var(--mpris-album-art-shadow);
   border-radius: 30px;
