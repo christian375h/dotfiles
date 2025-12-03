@@ -13,7 +13,9 @@ return {
       typescript = { "prettierd", "prettier", stop_after_first = true },
       typescriptreact = { "prettierd", "prettier" },
       json = { "prettierd", "prettier" },
-      ejs = { "prettierd", "prettier" }
+      ejs = { "prettierd", "prettier" },
+      cpp = { "clang_format" },
+      c = { "clang_format" }
     },
   },
 }

@@ -60,11 +60,11 @@
         "critical-threshold": 75,
         "tooltip": false,
         "format-critical": "({temperatureC}°C)",
-        "format": "  ({temperatureC}°C)"
+        "format": " ({temperatureC}°C)"
     },
     "disk": {
         "interval": 30,
-        "format": "󰋊   {percentage_used}%",
+        "format": "󰋊 {percentage_used}%",
         "path": "/",
         "tooltip": true,
         "unit": "GB",

@@ -1,7 +1,7 @@
 @import '/home/chin/system_colors.css';
 
 :root {
-  --cc-bg: rgba(120, 120, 120, 0.2);
+  --cc-bg: rgba(40, 40, 40, 0.2);
   --noti-bg: 110, 110, 110;
   --noti-bg-alpha: 0.3;
   --noti-bg-focus: rgba(130, 130, 130, 0.3);
@@ -613,7 +613,7 @@ blankwindow {
 }
 
 .widget-buttons-grid flowbox > flowboxchild > button {
-  padding: 10px 0 10px 0;
+  padding: 1rem 0 1rem 0;
   margin: 0;
   box-shadow: var(--mpris-album-art-shadow);
   border-radius: 30px;
@@ -695,22 +695,32 @@ blankwindow {
   font-size: var(--font-size-icon);
 }
 
-/* Make menubar power button match the grid buttons */
-.widget-menubar>box>.menu-button-bar>button {
-    padding: 0;
-    margin: 0 6px;
+/* Power Options Dropdown */
+.power-buttons{
+  margin: 8px;
+  border-radius: 2px;
+}
+
+
+.power-buttons > button {
+    padding: 10px;
+    margin: 6px;
     border-radius: var(--border-radius);
     border: 1px solid rgba(255, 255, 255, 0.12);
     box-shadow: var(--3d-shadow);
     transition: all 0.26s ease;
-    background: transparent;
     color: var(--text-color);
-    font-size: 1.6rem; 
+    font-size: 1rem; 
 }
 
-.menubar menu > button:hover {
+.power-buttons>button:hover {
     transform: translateY(-2px);
     transform: scale(1.05);
     background: var(--noti-bg-focus);
+}
+
+.widget-menubar>box>.menu-button-bar>button{
+  border: none;
+  background: #fff;
 }
 

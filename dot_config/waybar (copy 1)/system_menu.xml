@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkMenu" id="menu">
+    <child>
+      <object class="GtkMenuItem">
+        <property name="label">System Resources</property>
+        <property name="sensitive">false</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkSeparatorMenuItem" id="separator1"/>
+    </child>
+    <child>
+      <object class="GtkMenuItem">
+        <property name="label">CPU:   </property>
+        <child>
+          <object class="GtkMenu">
+            <child>
+              <object class="GtkMenuItem" id="cpu">
+                <property name="label">Open CPU Monitor</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkMenuItem">
+        <property name="label">Memory:   </property>
+        <child>
+          <object class="GtkMenu">
+            <child>
+              <object class="GtkMenuItem" id="memory">
+                <property name="label">Open Memory Monitor</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkMenuItem">
+        <property name="label">Disk:   </property>
+        <child>
+          <object class="GtkMenu">
+            <child>
+              <object class="GtkMenuItem" id="disk">
+                <property name="label">Open Disk Usage</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkMenuItem">
+        <property name="label">NVIDIA:   </property>
+        <child>
+          <object class="GtkMenu">
+            <child>
+              <object class="GtkMenuItem" id="nvidia">
+                <property name="label">Open NVIDIA Monitor</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="GtkSeparatorMenuItem" id="separator2"/>
+    </child>
+    <child>
+      <object class="GtkMenuItem" id="refresh">
+        <property name="label">Refresh Waybar</property>
+      </object>
+    </child>
+  </object>
+</interface>
