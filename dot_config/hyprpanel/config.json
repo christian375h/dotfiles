@@ -47,7 +47,7 @@
   "theme.bar.buttons.media.text": "#eaeaea",
   "theme.bar.buttons.dashboard.icon": "#ebebeb",
   "bar.layouts": {
-    "0": {
+    "*": {
       "left": [
         "dashboard",
         "workspaces",
@@ -60,37 +60,7 @@
         "volume",
         "network",
         "bluetooth",
-        "systray",
-        "clock",
-        "notifications"
-      ]
-    },
-    "1": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
-        "notifications"
-      ]
-    },
-    "2": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
+        "battery",
         "clock",
         "notifications"
       ]
@@ -113,7 +83,7 @@
   "theme.bar.buttons.battery.text": "#ebebeb",
   "theme.bar.buttons.clock.text": "#ebebeb",
   "theme.notification.text": "#ebebeb",
-  "theme.bar.transparent": true,
+  "theme.bar.transparent": false,
   "theme.notification.opacity": 100,
   "menus.clock.weather.key": "2d25eff1b1b3486b885224144250912",
   "bar.clock.format": "%a %b %d  %I:%M %p",
@@ -122,5 +92,6 @@
   "bar.windowtitle.class_name": true,
   "bar.windowtitle.label": true,
   "theme.bar.outer_spacing": "0.4em",
-  "menus.dashboard.powermenu.avatar.image": "/home/chin/Pictures/hope!!!!!!!!!!.png"
+  "menus.dashboard.powermenu.avatar.image": "/home/chin/Pictures/hope!!!!!!!!!!.png",
+  "theme.font.weight": 600
 }

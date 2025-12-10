@@ -1,0 +1,144 @@
+{
+  "transition": 0.2,
+  "bar": {
+    "size": 48,
+    "position": "bottom",
+    "modules": {
+      "start": [
+        "launcher",
+        "clock"
+      ],
+      "center": [
+        "workspaces"
+      ],
+      "end": [
+        "recordindicator",
+        "tray",
+        "quicksettings"
+      ],
+      "launcher": {
+        "format": "{icon}",
+        "on-click": "toggle-launcher"
+      },
+      "battery": {
+        "format": "{icon}",
+        "on-click": "toggle-power"
+      },
+      "bluetooth": {
+        "format": "{icon}",
+        "on-click": "toggle-bluetooth"
+      },
+      "clipboard": {
+        "format": "{icon}",
+        "on-click": "toggle-clipboard"
+      },
+      "clock": {
+        "format": "%b %d  %H:%M",
+        "on-click": "toggle-calendar"
+      },
+      "workspaces": {
+        "taskbar": true,
+        "taskbar-icons": {},
+        "on-scroll-up": "workspace-up",
+        "on-scroll-down": "workspace-down"
+      },
+      "keyboard": {
+        "format": "{lang}",
+        "on-click": "switch-language"
+      },
+      "network": {
+        "format": "{icon}",
+        "on-click": "toggle-network"
+      },
+      "volume": {
+        "format": "{icon}",
+        "on-click": "toggle-volume",
+        "on-click-middle": "volume-toggle",
+        "on-scroll-up": "volume-up",
+        "on-scroll-down": "volume-down"
+      },
+      "microphone": {
+        "format": "{icon}",
+        "on-click": "toggle-volume",
+        "on-click-middle": "microphone-toggle",
+        "on-scroll-up": "microphone-up",
+        "on-scroll-down": "microphone-down"
+      },
+      "weather": {
+        "format": "{icon} {temp}{units}",
+        "on-click": "toggle-weather"
+      },
+      "recordindicator": {
+        "format": "{icon}",
+        "on-click": "screenrecord-toggle"
+      },
+      "notifications": {
+        "format": "{icon}",
+        "on-click": "toggle-notifs"
+      },
+      "powermenu": {
+        "format": "{icon}",
+        "on-click": "toggle-powermenu"
+      },
+      "quicksettings": {
+        "format": "{icon}",
+        "on-click": "toggle-qs"
+      },
+      "cpu": {
+        "format": "{icon} {usage}"
+      },
+      "ram": {
+        "format": "{icon} {usage}"
+      }
+    }
+  },
+  "quicksettings": {
+    "buttons": [
+      "network",
+      "bluetooth",
+      "notifications",
+      "screenrecord"
+    ],
+    "sliders": [
+      "volume",
+      "brightness"
+    ]
+  },
+  "launcher": {
+    "width": 400,
+    "height": 500,
+    "columns": 1,
+    "sort-type": "frequency"
+  },
+  "clipboard": {
+    "enabled": true,
+    "max-items": 50,
+    "image-preview": true,
+    "width": 400,
+    "height": 500
+  },
+  "osd": {
+    "enabled": true,
+    "vertical": false,
+    "width": 300,
+    "height": 56,
+    "position": "bottom",
+    "timeout": 3
+  },
+  "notifications": {
+    "position": "top",
+    "enabled": true,
+    "timeout": 3,
+    "width": 400,
+    "list": {
+      "height": 500
+    }
+  },
+  "weather": {
+    "enabled": true,
+    "location": {
+      "auto": false,
+      "city": "Minsk"
+    }
+  }
+}
