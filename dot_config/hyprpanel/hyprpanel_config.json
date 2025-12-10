@@ -1,0 +1,94 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.bar.menus.opacity": 100,
+  "theme.bar.opacity": 25,
+  "theme.bar.menus.monochrome": false,
+  "theme.bar.buttons.opacity": 100,
+  "theme.bar.buttons.background_opacity": 0,
+  "theme.bar.buttons.background_hover_opacity": 100,
+  "theme.bar.menus.border.size": "0.13em",
+  "theme.bar.menus.border.radius": "0.2em",
+  "theme.bar.scaling": 85,
+  "menus.volume.raiseMaximumVolume": false,
+  "theme.bar.menus.buttons.radius": "0.4em",
+  "theme.bar.menus.slider.slider_radius": "0.3rem",
+  "theme.bar.menus.scroller.radius": "0.7em",
+  "theme.bar.menus.scroller.width": "0.25em",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "google-chrome-stable",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "vesktop",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "fuzzel",
+  "menus.dashboard.shortcuts.right.shortcut3.command": "hyprshot -m region",
+  "theme.bar.enableShadow": false,
+  "bar.launcher.icon": "󰣇",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "bar.network.showWifiInfo": false,
+  "theme.bar.menus.progressbar.radius": "0.3rem",
+  "theme.bar.menus.switch.radius": "0.2em",
+  "theme.bar.buttons.radius": "0.3em",
+  "theme.bar.layer": "top",
+  "theme.bar.floating": false,
+  "menus.clock.weather.location": "84010",
+  "menus.clock.weather.unit": "imperial",
+  "menus.clock.time.hideSeconds": false,
+  "theme.bar.transparent": true,
+  "theme.notification.opacity": 100,
+  "menus.clock.weather.key": "2d25eff1b1b3486b885224144250912",
+  "bar.clock.format": "%a %b %d  %I:%M %p",
+  "bar.clock.showIcon": true,
+  "bar.windowtitle.custom_title": true,
+  "bar.windowtitle.class_name": true,
+  "bar.windowtitle.label": true,
+  "theme.bar.outer_spacing": "0.4em"
+}

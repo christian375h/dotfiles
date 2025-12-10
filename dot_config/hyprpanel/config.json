@@ -1,0 +1,126 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.bar.menus.opacity": 100,
+  "theme.bar.opacity": 25,
+  "theme.bar.background": "#11111b",
+  "theme.bar.menus.monochrome": false,
+  "theme.bar.menus.background": "#11111b",
+  "theme.bar.buttons.style": "default",
+  "theme.bar.buttons.opacity": 100,
+  "theme.bar.buttons.background_opacity": 0,
+  "theme.bar.buttons.background_hover_opacity": 100,
+  "theme.bar.menus.menu.dashboard.background.color": "#11111b",
+  "theme.bar.menus.border.size": "0.13em",
+  "theme.bar.menus.border.radius": "0.2em",
+  "theme.bar.menus.border.color": "#313244",
+  "theme.bar.scaling": 85,
+  "menus.volume.raiseMaximumVolume": false,
+  "theme.bar.menus.slider.primary": "#b4befe",
+  "theme.bar.menus.progressbar.foreground": "#b4befe",
+  "theme.bar.menus.slider.background": "#585b71",
+  "theme.bar.menus.label": "#b4befe",
+  "theme.bar.menus.popover.text": "#b4befe",
+  "theme.bar.menus.listitems.active": "#b4befd",
+  "theme.bar.menus.icons.active": "#b4befe",
+  "theme.bar.menus.switch.enabled": "#b4befe",
+  "theme.bar.menus.check_radio_button.active": "#b4beff",
+  "theme.bar.menus.buttons.default": "#b4befe",
+  "theme.bar.menus.buttons.radius": "0.4em",
+  "theme.bar.menus.buttons.active": "#f5c2e6",
+  "theme.bar.menus.slider.slider_radius": "0.3rem",
+  "theme.bar.menus.scroller.radius": "0.7em",
+  "theme.bar.menus.scroller.width": "0.25em",
+  "theme.bar.border.color": "#b4befe",
+  "theme.bar.menus.popover.background": "#181824",
+  "theme.bar.menus.menu.media.background.color": "#11111b",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "google-chrome-stable",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "vesktop",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "fuzzel",
+  "menus.dashboard.shortcuts.right.shortcut3.command": "hyprshot -m region",
+  "theme.bar.enableShadow": false,
+  "bar.launcher.icon": "󰣇",
+  "theme.bar.menus.text": "#cdd6f4",
+  "theme.bar.buttons.text": "#ffffff",
+  "theme.bar.buttons.media.text": "#eaeaea",
+  "theme.bar.buttons.dashboard.icon": "#ebebeb",
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "bar.network.showWifiInfo": false,
+  "theme.bar.menus.check_radio_button.background": "#45475a",
+  "theme.bar.menus.progressbar.radius": "0.3rem",
+  "theme.bar.menus.switch.radius": "0.2em",
+  "theme.bar.buttons.radius": "0.3em",
+  "theme.bar.layer": "top",
+  "theme.bar.floating": false,
+  "menus.clock.weather.location": "84010",
+  "menus.clock.weather.unit": "imperial",
+  "menus.clock.time.hideSeconds": false,
+  "theme.bar.buttons.windowtitle.text": "#eaeaea",
+  "theme.bar.buttons.volume.text": "#ebebeb",
+  "theme.bar.buttons.network.text": "#ebebeb",
+  "theme.bar.buttons.bluetooth.text": "#ebebeb",
+  "theme.bar.buttons.battery.text": "#ebebeb",
+  "theme.bar.buttons.clock.text": "#ebebeb",
+  "theme.notification.text": "#ebebeb",
+  "theme.bar.transparent": true,
+  "theme.notification.opacity": 100,
+  "menus.clock.weather.key": "2d25eff1b1b3486b885224144250912",
+  "bar.clock.format": "%a %b %d  %I:%M %p",
+  "bar.clock.showIcon": true,
+  "bar.windowtitle.custom_title": true,
+  "bar.windowtitle.class_name": true,
+  "bar.windowtitle.label": true,
+  "theme.bar.outer_spacing": "0.4em",
+  "menus.dashboard.powermenu.avatar.image": "/home/chin/Pictures/hope!!!!!!!!!!.png"
+}
